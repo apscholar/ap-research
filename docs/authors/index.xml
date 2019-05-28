@@ -6,10 +6,19 @@
     <description>Recent content in Authors on AP Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/ap-research/authors/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mr. Li</title>
+      <link>/ap-research/authors/mr.-li/</link>
+      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/ap-research/authors/mr.-li/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title></title>
@@ -19,6 +28,15 @@
       <guid>/ap-research/authors/admin/</guid>
       <description>Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet.</description>
+    </item>
+    
+    <item>
+      <title>College Board</title>
+      <link>/ap-research/authors/college-board/</link>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/ap-research/authors/college-board/</guid>
+      <description></description>
     </item>
     
     <item>

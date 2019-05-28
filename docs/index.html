@@ -219,21 +219,26 @@
         
         
           
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
             
+          
           
         
 
-        
-        
-        
-        
-        
-        
-
         <li class="nav-item">
-          <a class="nav-link " href="http://apscholar.github.io/ap-research-handbook/" target="_blank" rel="noopener">
+          <a class="nav-link " href="/ap-research/#posts" data-target="#posts">
             
-            <span>Handbook</span>
+            <span>Posts</span>
             
           </a>
         </li>
@@ -255,18 +260,11 @@
         
         
         
-          
-          
-          
-            
-          
-          
-        
 
         <li class="nav-item">
-          <a class="nav-link " href="/ap-research/#posts" data-target="#posts">
+          <a class="nav-link " href="/ap-research/publication/">
             
-            <span>Posts</span>
+            <span>Papers</span>
             
           </a>
         </li>
@@ -321,18 +319,11 @@
         
         
         
-          
-          
-          
-            
-          
-          
-        
 
         <li class="nav-item">
-          <a class="nav-link " href="/ap-research/#featured" data-target="#featured">
+          <a class="nav-link " href="/ap-research/talk/">
             
-            <span>Publications</span>
+            <span>Talks</span>
             
           </a>
         </li>
@@ -356,9 +347,37 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/ap-research/courses/">
+          <a class="nav-link " href="/ap-research/tutorials/">
             
-            <span>Courses</span>
+            <span>Tutorials</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+            
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="http://apscholar.github.io/ap-research-handbook/" target="_blank" rel="noopener">
+            
+            <span>Handbook</span>
             
           </a>
         </li>
@@ -448,110 +467,6 @@
   
 
   
-    
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="hero" class="home-section wg-hero dark  " style="background-image: linear-gradient(#4bb4e3, #2b94c3);" >
-    <div class="container">
-      
-
-
-
-
-<div class="row">
-  <div class="col-md-6 order-md-1 text-center text-md-left">
-
-
-    <h1 class="hero-title" itemprop="headline">
-      Academic
-    </h1>
-
-    
-    <div class="hero-lead"><p><strong>The Best Way to Create the Website You Want from Markdown (or Jupyter/RStudio)</strong></p>
-
-<p>Build <strong>Anything</strong> with Widgets</p>
-
-<p><span style="text-shadow: none;"><a class="github-button" href="https://github.com/gcushen/hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this on GitHub">Star</a><script async defer src="https://buttons.github.io/buttons.js"></script></span></p>
-</div>
-    
-
-    
-    
-      
-      
-      
-        
-      
-      
-      
-      
-      
-        
-      
-    <p class="cta-btns">
-      <a href="https://sourcethemes.com/academic/docs/install/" target="_blank" rel="noopener" class="btn btn-light btn-lg"><i class="fas fa-download" aria-hidden="true"></i> Get Started</a>
-
-      
-      
-        
-        
-        
-        
-          
-        
-      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener" class="hero-cta-alt pl-4">View Documentation <i class="fas fa-angle-right"></i></a>
-      
-    </p>
-    
-
-    
-    
-    <p class="hero-note text-muted mb-0">
-      <a id="academic-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release <!-- V --></a>
-    </p>
-    
-
-  
-  
-  </div>
-  <div class="col-6 mx-auto col-md-6 order-md-2 hero-media">
-    <img src="/ap-research/img/hero-academic.png" alt="">
-  </div>
-</div>
-
-
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
 
   
     
@@ -593,22 +508,125 @@
 <div class="row">
   
     <div class="col-lg-12">
-      <h1>Demos</h1>
+      <h1>Welcome</h1>
       
-      <p>Welcome to the <strong>personal demo</strong> of Academic. Other demos available include:</p>
+      
 
-<ul>
-<li><a href="https://sourcethemes.com/academic/" target="_blank"><strong>Project Demo</strong> (Academic&rsquo;s actual site)</a></li>
-</ul>
+<p>Welcome to the AP Research.</p>
 
-<div class="alert alert-note">
-  <div>
-    <p>This homepage section is an example of adding <a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/" target="_blank">elements</a> to the <a href="https://sourcethemes.com/academic/docs/widgets/" target="_blank"><em>Blank</em> widget</a>.</p>
+<h1 id="research-process">Research Process</h1>
 
-<p>Backgrounds can be applied to any section. Here, the <em>background</em> option is set give an <em>image parallax</em> effect.</p>
-
-  </div>
+<link href="/ap-research/mermaid/mermaid.css" type="text/css" rel="stylesheet"/>
+<script defer src="/ap-research/mermaid/mermaid.js">mermaid.initialize({startOnLoad:true});</script>
+<div class="mermaid" align="left" style="font-size: 180%">
+graph LR;
+    A[Research Question] --> B(Literature Review)
+    B --> C{Hypothesis}
+    C --> D[Research Design]
+    D --> E{Data & Methods}
+    E --> F[Analysis]
+    F --> G{Evaluation}
+    click B "/ap-research/talk/" "Testing"
 </div>
+<style>
+.mermaid {
+    font-size: 20px;
+}
+.mermaidTooltip {
+    font-size: 20px;
+}
+.taskText{
+    font-size: 20px;
+}
+</style>
+
+
+
+    </div>
+  
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="ganttflow" class="home-section wg-blank   " style="padding: 20px 0 20px 0;" >
+    <div class="container">
+      
+
+
+<div class="row">
+  
+    <div class="col-lg-12">
+      <h1>Timeline</h1>
+      
+      <link href="/ap-research/mermaid/mermaid.css" type="text/css" rel="stylesheet"/>
+<script defer src="/ap-research/mermaid/mermaid.js">mermaid.initialize({startOnLoad:true});</script>
+<div class="mermaid" align="center" style="font-size: 180%">
+gantt
+        dateFormat  YYYY-MM-DD
+        axisFormat %m/%d
+        title July 2019 to October 2019
+        
+        section Research
+        Research Proposal           :done,    des1, 2019-07-01,2019-08-20
+        Lit. Review                 :active,  des2, 2019-09-01, 14d
+        Research Design              :         des3, after des2, 14d
+        Research Methods               :         des4, after des3, 10d
+        
+        section Skill Development
+        Indep. Study of Methods         :crit, done, 2019-07-30,30d
+        Bibliography Management         :crit, done, after des1, 5d
+        Data Programming                :crit, active, 30d
+        LaTeX                           :crit, 7d
+        Reproducible Research           :1d
+        Presentation Skills             :1d
+</div>
+<style>
+.mermaid {
+    font-size: 20px;
+}
+.mermaidTooltip {
+    font-size: 20px;
+}
+.taskText{
+    font-size: 20px;
+}
+</style>
+
+
 
     </div>
   
@@ -668,6 +686,9 @@
 
 
 
+  
+  
+
 
 
 
@@ -700,224 +721,6 @@
 
     
 
-    
-      
-        
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-<div class="media stream-item" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0" itemprop="name">
-      <a href="/ap-research/2019/02/05/display-jupyter-notebooks-with-academic/" itemprop="url">Display Jupyter Notebooks with Academic</a>
-    </h3>
-
-    
-    <div class="article-style" itemprop="articleBody">
-      Learn how to blog in Academic using Jupyter notebooks
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-
-<meta content="2019-02-05 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2019-02-05 00:00:00 &#43;0000 UTC" itemprop="dateModified">
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/ap-research/authors/admin/">Nelson Bighetti</a></span>
-
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    <time>Feb 5, 2019</time>
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    1 min read
-  </span>
-  
-
-  
-  
-
-  
-  
-
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/ap-research/2019/02/05/display-jupyter-notebooks-with-academic/">
-      <img src="/ap-research/2019/02/05/display-jupyter-notebooks-with-academic/featured_hub1daa031c2af6888ff37bd93eb033a1a_71549_150x0_resize_lanczos_2.png" itemprop="image">
-    </a>
-    
-  </div>
-</div>
-
-      
-    
-      
-        
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-<div class="media stream-item" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0" itemprop="name">
-      <a href="/ap-research/2016/04/20/academic-the-website-builder-for-hugo/" itemprop="url">Academic: the website builder for Hugo</a>
-    </h3>
-
-    
-    <div class="article-style" itemprop="articleBody">
-      Create a beautifully simple website in under 10 minutes.
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-
-<meta content="2016-04-20 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2019-04-17 00:00:00 &#43;0000 UTC" itemprop="dateModified">
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/ap-research/authors/admin/">Nelson Bighetti</a></span>
-
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-          Last updated on
-      
-    
-    <time>Apr 17, 2019</time>
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    2 min read
-  </span>
-  
-
-  
-  
-
-  
-  
-
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/ap-research/2016/04/20/academic-the-website-builder-for-hugo/">
-      <img src="/ap-research/2016/04/20/academic-the-website-builder-for-hugo/featured_hub9ee31969f44a6711206a2baf9f065b4_241861_150x0_resize_q90_lanczos.jpg" itemprop="image">
-    </a>
-    
-  </div>
-</div>
-
-      
     
       
         
@@ -1231,149 +1034,6 @@
   
   
 
-  <section id="gallery" class="home-section wg-blank   "  >
-    <div class="container">
-      
-
-
-<div class="row">
-  
-    <div class="col-12 col-lg-4 section-heading">
-      <h1>Gallery</h1>
-      
-    </div>
-    <div class="col-12 col-lg-8">
-      
-
-
-
-
-
-
-
-  
-  
-
-
-<div class="gallery">
-
-  
-  
-  
-  
-    
-    
-    
-    
-    
-  <a data-fancybox="gallery-gallery" href="/ap-research/home/gallery/gallery/theme-1950s.png" >
-  <img src="/ap-research/home/gallery/gallery/theme-1950s_huaf5482f8cea0c5a703a328640e3b7509_21614_0x190_resize_lanczos_2.png" alt="">
-  </a>
-  
-    
-    
-    
-    
-    
-  <a data-fancybox="gallery-gallery" href="/ap-research/home/gallery/gallery/theme-apogee.png" >
-  <img src="/ap-research/home/gallery/gallery/theme-apogee_hu4b45d99db97150df01464c393bfd17d4_24119_0x190_resize_lanczos_2.png" alt="">
-  </a>
-  
-    
-    
-    
-    
-    
-  <a data-fancybox="gallery-gallery" href="/ap-research/home/gallery/gallery/theme-coffee-playfair.png" >
-  <img src="/ap-research/home/gallery/gallery/theme-coffee-playfair_hu446a8f670cc5622adcc77b97ba95f6c5_22462_0x190_resize_lanczos_2.png" alt="">
-  </a>
-  
-    
-    
-    
-    
-    
-  <a data-fancybox="gallery-gallery" href="/ap-research/home/gallery/gallery/theme-cupcake.png" >
-  <img src="/ap-research/home/gallery/gallery/theme-cupcake_hueba8cfa8cfbc7543924fcbf387a99e92_23986_0x190_resize_lanczos_2.png" alt="">
-  </a>
-  
-    
-    
-    
-    
-    
-  <a data-fancybox="gallery-gallery" href="/ap-research/home/gallery/gallery/theme-dark.png" >
-  <img src="/ap-research/home/gallery/gallery/theme-dark_hu1e8601ecc47f58eada7743fdcd709d3d_21456_0x190_resize_lanczos_2.png" alt="">
-  </a>
-  
-    
-    
-    
-    
-    
-  <a data-fancybox="gallery-gallery" href="/ap-research/home/gallery/gallery/theme-default.png" >
-  <img src="/ap-research/home/gallery/gallery/theme-default_huba6228b7bdf30e2f03f12ea91b2cba0d_21751_0x190_resize_lanczos_2.png" alt="">
-  </a>
-  
-    
-    
-    
-    
-    
-  <a data-fancybox="gallery-gallery" href="/ap-research/home/gallery/gallery/theme-forest.png" >
-  <img src="/ap-research/home/gallery/gallery/theme-forest_hu4f093a1c683134431456584193ea41ee_21797_0x190_resize_lanczos_2.png" alt="">
-  </a>
-  
-    
-    
-    
-    
-    
-  <a data-fancybox="gallery-gallery" href="/ap-research/home/gallery/gallery/theme-ocean.png" >
-  <img src="/ap-research/home/gallery/gallery/theme-ocean_hu14831ccafc2219f30a7a096fa7617e01_21760_0x190_resize_lanczos_2.png" alt="">
-  </a>
-  
-
-  
-</div>
-
-    </div>
-  
-</div>
-
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
   <section id="talks" class="home-section wg-pages   "  >
     <div class="container">
       
@@ -1420,8 +1080,8 @@
 
 <div class="row">
   <div class="col-12 col-lg-4 section-heading">
-    <h1>Recent &amp; Upcoming Talks</h1>
-    
+    <h1>Recent Presentations</h1>
+    <p><a href="/talk">Search All Presentations &#8594;</a></p>
   </div>
   <div class="col-12 col-lg-8">
 
@@ -1598,7 +1258,7 @@
   
   
 
-  <section id="featured" class="home-section wg-featured   "  >
+  <section id="papers" class="home-section wg-pages   "  >
     <div class="container">
       
 
@@ -1609,6 +1269,7 @@
 
 
 
+  
 
 
 
@@ -1622,12 +1283,29 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
 
 
 <div class="row">
   <div class="col-12 col-lg-4 section-heading">
-    <h1>Featured Publications</h1>
-    
+    <h1>Recent Papers</h1>
+    <p><a href="/publication">Search All Papers &#8594;</a></p>
   </div>
   <div class="col-12 col-lg-8">
 
@@ -1642,6 +1320,8 @@
 
 
 
+
+  
   
   
 
@@ -1652,88 +1332,38 @@
   
 
 
-<div class="card-simple" itemscope itemtype="http://schema.org/ScholarlyArticle">
+<div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
 
-  
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/ap-research/publication/proposal/" itemprop="url">Research Proposal Guidelines</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      research proposal guidelines and template
+    </div>
     
 
+    <div class="stream-meta article-metadata">
 
-
-<meta content="2013-07-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2013-07-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/ap-research/authors/admin/">Nelson Bighetti</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/ap-research/authors/robert-ford/">Robert Ford</a></span>
-
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
       
+
+      
+      <div itemprop="author">
+        
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/ap-research/authors/mr.-li/">Mr. Li</a></span>
+
+      </div>
+      
+    </div>
+
     
-    <time>July 2013</time>
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      In <em>STC</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-
-</div>
-
-  
-
-  
-  
-  
-  
-  <a href="/ap-research/publication/conference-paper/">
-      <img src="/ap-research/publication/conference-paper/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_312700_918x517_fill_q90_lanczos_smart1.jpg" class="article-banner" itemprop="image" alt="">
-  </a>
-  
-
-  <h3 class="article-title mb-1 mt-3" itemprop="name">
-    <a href="/ap-research/publication/conference-paper/" itemprop="url">An example conference paper</a>
-  </h3>
-
-  
-  <div class="article-style" itemprop="articleBody">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
-  </div>
-  
-
-  
-  <div class="btn-links">
-    
+    <div class="btn-links">
+      
 
 
 
@@ -1748,34 +1378,18 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/ap-research/publication/proposal/AP_Research_Proposal_Guidelines.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/ap-research/publication/conference-paper/cite.bib">
+        data-filename="/ap-research/publication/proposal/cite.bib">
   Cite
 </button>
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/ap-research/#" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/ap-research/#" target="_blank" rel="noopener">
-  Dataset
-</a>
 
 
 
@@ -1787,14 +1401,6 @@
 
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/ap-research/#" target="_blank" rel="noopener">
-  Poster
-</a>
-
 
   
   <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/ap-research/slides/example/" target="_blank">
@@ -1803,22 +1409,6 @@
   
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/ap-research/#" target="_blank" rel="noopener">
-  Video
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/ap-research/#" target="_blank" rel="noopener">
-  Source Document
-</a>
 
 
 
@@ -1833,114 +1423,39 @@
   
     
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://example.org" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.overleaf.com/read/ncvzdvcvfxdx" target="_blank" rel="noopener">
     
-    Custom Link
+    Overleaf
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/ap-research/proposal" target="_blank" rel="noopener">
+    
+    Github
   </a>
 
 
-  </div>
-  
-
-</div>
-
-      
-    
-
-  </div>
-</div>
-
     </div>
-  </section>
+    
 
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="publications" class="home-section wg-pages   "  >
-    <div class="container">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Recent Publications</h1>
+  </div>
+  <div class="ml-3">
+    
     
   </div>
-  <div class="col-12 col-lg-8">
-
-    <p><div class="alert alert-note">
-  <div>
-    Quickly discover relevant content by <a href="/ap-research/publication/">filtering publications</a>.
-  </div>
 </div>
-</p>
 
+      
     
       
         
@@ -2135,6 +1650,212 @@
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/ap-research/publication/sample-paper-a/" itemprop="url">Growth for Good: How Past Experiences Motivate Executives to Join Double Bottom Line Organizations in the Indian Construction Industry</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      College Board AP Research Sample Paper A
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div itemprop="author">
+        
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/ap-research/authors/college-board/">College Board</a></span>
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap17-research-sample-a-high.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/ap-research/publication/sample-paper-a/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/ap-research/publication/sample-paper-b/" itemprop="url">Music Chemistry: The Formula of K-Pop</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      College Board AP Research Sample Paper B
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div itemprop="author">
+        
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/ap-research/authors/college-board/">College Board</a></span>
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap17-research-sample-b-high.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/ap-research/publication/sample-paper-b/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
       <a href="/ap-research/publication/journal-article/" itemprop="url">An example journal article</a>
     </h3>
 
@@ -2223,180 +1944,6 @@
 
       
     
-      
-        
-
-
-
-
-
-
-
-  
-  
-  
-
-
-
-
-
-  
-
-
-<div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0" itemprop="name">
-      <a href="/ap-research/publication/conference-paper/" itemprop="url">An example conference paper</a>
-    </h3>
-
-    
-    <div class="article-style" itemprop="articleBody">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div itemprop="author">
-        
-
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/ap-research/authors/admin/">Nelson Bighetti</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/ap-research/authors/robert-ford/">Robert Ford</a></span>
-
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/ap-research/publication/conference-paper/cite.bib">
-  Cite
-</button>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/ap-research/#" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/ap-research/#" target="_blank" rel="noopener">
-  Dataset
-</a>
-
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/ap-research/project/internal-project/">
-    Project
-  </a>
-  
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/ap-research/#" target="_blank" rel="noopener">
-  Poster
-</a>
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/ap-research/slides/example/" target="_blank">
-    Slides
-  </a>
-  
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/ap-research/#" target="_blank" rel="noopener">
-  Video
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/ap-research/#" target="_blank" rel="noopener">
-  Source Document
-</a>
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://example.org" target="_blank" rel="noopener">
-    
-    Custom Link
-  </a>
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/ap-research/publication/conference-paper/">
-      <img src="/ap-research/publication/conference-paper/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_312700_150x0_resize_q90_lanczos.jpg" itemprop="image">
-    </a>
-    
-  </div>
-</div>
-
-      
-    
 
     
 
@@ -2469,12 +2016,32 @@
           
           
           
+          <a href="/ap-research/tags/business/" style="font-size:1.8725805810714777rem">Business</a>
+        
+          
+          
+          
+          <a href="/ap-research/tags/class-docs/" style="font-size:0.8rem">Class Docs</a>
+        
+          
+          
+          
+          <a href="/ap-research/tags/college-board/" style="font-size:1.8725805810714777rem">College Board</a>
+        
+          
+          
+          
           <a href="/ap-research/tags/deep-learning/" style="font-size:0.8rem">Deep Learning</a>
         
           
           
           
           <a href="/ap-research/tags/demo/" style="font-size:0.8rem">Demo</a>
+        
+          
+          
+          
+          <a href="/ap-research/tags/music/" style="font-size:0.8rem">Music</a>
         
           
           
@@ -2494,7 +2061,7 @@
           
           
           
-          <a href="/ap-research/tags/source-themes/" style="font-size:2.1472181256129828rem">Source Themes</a>
+          <a href="/ap-research/tags/source-themes/" style="font-size:1.8725805810714777rem">Source Themes</a>
         
       </div>
     

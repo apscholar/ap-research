@@ -8,7 +8,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 15  # Order that this section will appear.
 
-title = "Demos"
+title = "Welcome"
 subtitle = ""
 
 [design]
@@ -47,14 +47,19 @@ subtitle = ""
  css_class = ""
 +++
 
-Welcome to the **personal demo** of Academic. Other demos available include:
+Welcome to the AP Research. 
 
-- [**Project Demo** (Academic's actual site)](https://sourcethemes.com/academic/)
+# Research Process
+
+{{<mermaid align="left">}}
+graph LR;
+    A[Research Question] --> B(Literature Review)
+    B --> C{Hypothesis}
+    C --> D[Research Design]
+    D --> E{Data & Methods}
+    E --> F[Analysis]
+    F --> G{Evaluation}
+    click B "/ap-research/talk/" "Testing"
+{{< /mermaid >}}
 
 
-
-{{% alert note %}}
-This homepage section is an example of adding [elements](https://sourcethemes.com/academic/docs/writing-markdown-latex/) to the [*Blank* widget](https://sourcethemes.com/academic/docs/widgets/).
-
-Backgrounds can be applied to any section. Here, the *background* option is set give an *image parallax* effect.
-{{% /alert %}}
