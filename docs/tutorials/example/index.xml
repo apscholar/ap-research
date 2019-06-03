@@ -27,8 +27,9 @@ Tip 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tell
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       
       <guid>/ap-research/tutorials/example/example2/</guid>
-      <description>Here are some more tips for getting started with Academic:
-Tip 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus.</description>
+      <description>Research Question You can label chapter and section titles using {#label} after them, e.g., we can reference Chapter 1. If you do not manually label them, there will be automatic labels anyway, e.g., Chapter 8.
+Figures and tables with captions will be placed in figure and table environments, respectively.
+Literature Review List resources for conducting literature review. Show example of literature review with inline citations. Show ways to keep track of sources for bibliography.</description>
     </item>
     
   </channel>

@@ -4,9 +4,14 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
-  name = "Home"
-  url = "#about"
+  name = "Syllabus"
+  url = "http://apscholar.github.io/ap-research-syllabus/"
   weight = 10
+  
+[[main]]
+  name = "Course"
+  url = "course/"
+  weight = 15
 
 [[main]]
   name = "Posts"
@@ -39,7 +44,7 @@
   weight = 55
   
 [[main]]
-  name = "Contact"
+  name = "Office Hours"
   url = "#contact"
   weight = 60
 
