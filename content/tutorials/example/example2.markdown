@@ -125,6 +125,12 @@ While the bibliography is placed at the end of research papers, reference manage
 ## Reliability & Validity
 ## Accuracy vs. Precision
 ## Bias vs. Variance Tradeoff
+
+  * [Understanding the Bias-Variance Tradeoff](https://towardsdatascience.com/understanding-the-bias-variance-tradeoff-165e6942b229)
+      - As you introduce more variables to a model, bias tends to decrease. This means that on average the model will make predictions closer to the true value. 
+      - However, at the same time, variance tends to increase with the added variables. This means that each time you input the model with another random set of data, the outputted predictions will vary a lot. Why? More variables in the model means you might be in danger of overfitting your specific data. This means your model is so specifically tailored to your data at hand that it probably won't generalize well if you applied the model to other randomly drawn datasets.
+
+      
 ## Curse of Dimensionality
 ## Correlation vs. Causation
 
@@ -137,8 +143,25 @@ Before you decide how you will conduct your research, read through the [list of 
 
 ## Action
 ## Case Study
+
+## Case-Control Study
+
+  * [Case-Control Studies](https://sph.unc.edu/files/2015/07/nciph_ERIC5.pdf)
+      - The diagram on the first page provides a clear overview of case-control study design.
+  * [Overview of Case-Control Design](http://sphweb.bumc.bu.edu/otlt/MPH-Modules/EP/EP713_Case-Control/EP713_Case-Control_print.html)
+      
 ## Causal
 ## Cohort
+  
+  1. Sample a cohort of people from a population of interest
+  2. Follow this cohort for many years (often decades)
+  3. Record their attributes and exposures.
+  4. Record who develops outcome of interest (ongoing process).
+  
+  * This method can be costly, both monetarily and time-wise.
+  * Compare this method with case-control studies, which are a type of observational study often used in epidemiology.
+
+  
 ## Cross Sectional
 ## Descriptive
 ## Experimental
@@ -195,13 +218,13 @@ These notes are based on Professor Masten's [online course](https://modu.ssri.du
       + If this were a casual relationship, then we could plant more trees in a neighborhood and expect crime to go down. However, this is unlikely. More likely, people who tend to commit less crimes chose to live in neighborhoods with tree-lined streets.
       
   * Average Treatment Effect
-      - Causal effects vary among people, so there is a distribution of causal effects in the population.
-      - Theoretical ideal: you would know the unit level of causal effect for each person and thus make individualized treatment decisions. This is impossible in practice. You can't know the effect of receiving and not receiving treatment for an individual.
-      - Unit-level causal effect: difference in outcome between treatment & control, holding all other variables fixed
-      - Avg. treatment effect (ATE): avg. of all values for unit-level causal effects in a population
-      - Avg. outcome under the policy: avg. outcome when everyone is affected by the policy (i.e., receives treatment)
-      - Avg. outcome without the policy: avg. outcome when everyone is not affected by policy (i.e., does not receive treatment)
-      - ATE = Avg. outcome under policy - Avg. outcome w/o policy
+    - Causal effects vary among people, so there is a distribution of causal effects in the population.
+    - Theoretical ideal: you would know the unit level of causal effect for each person and thus make individualized treatment decisions. This is impossible in practice. You can't know the effect of receiving and not receiving treatment for an individual.
+    - Unit-level causal effect: difference in outcome between treatment & control, holding all other variables fixed
+    - Avg. treatment effect (ATE): avg. of all values for unit-level causal effects in a population
+    - Avg. outcome under the policy: avg. outcome when everyone is affected by the policy (i.e., receives treatment)
+    - Avg. outcome without the policy: avg. outcome when everyone is not affected by policy (i.e., does not receive treatment)
+    - ATE = Avg. outcome under policy - Avg. outcome w/o policy
   
 
 ### Experiments
@@ -263,7 +286,131 @@ These notes are based on Professor Masten's [online course](https://modu.ssri.du
               - There could still be differences between groups in unobserved variables.
               - Thus, we cannot prove treatment assignment is truly random, but balanced observed variables between groups would be part of a convincingly arugment that the observational data represents an as-if natural experiment.
 
-### Regression as Causality
+### Regression
+
+In general, regression analysis can show only correlations between variables but not causation. The following are some factors that would prevent you from making the leap from correlation to causation in regression analysis:
+
+1. Confounding Variables
+  
+  * A confounding variable is a hidden variable that has an influence on both the dependent variable and independent (or outcome) variable.
+  * This distorts the asssocation between the dependent and independent variable.
+  * Example: Suppose we want to test the effect of the number of books at home (dependent variable) on a child's reading proficiency (independent variable). A confounding factor could be the mother's level of education, which could effect both the number of books at home and the child's reading proficiency. Without accounting for the mother's level of education, we could be overstating the effect of books on reading proficiency.
+
+  
+2. Reverse Causality
+
+  * In your study of the effect of A on B, you spot an association between the two variables. However, the direction of causality acturally could be reversed (i.e., B has an effect on A).
+  * Example: Suppose you notice that as the debt of a country increases, its economic growth decreases. The cause-and-effect relationship could be the other way around. Maybe a faltering economy is the reason that countries have to accumulate more debt to meet their budgets.
+
+3. Simultaneity
+
+  * Similar to reverse causality, except that that direction of causality goes both ways at the same time. X causes Y, and Y causes X.
+
+4. Mediating Variable
+
+  * Example: Does consuming caffeine stunt children's growth? We might question this causal link if we examine the mediating variable of sleep duration. Perhaps drinking coffee disrupts sleep patterns, which in turn affects growth.
+  
+**Unconfoundedness Assumption**
+
+  * Under the unconfounded assumption (a.k.a. **selection on observables assumption**), we have controlled for enough variables that we assume no confounding variables exists. With this assumption, we can consider the association between the treatment and outcome variable to be causal, since conditioning on all the other variables makes the treatment assignment essentially random.
+  
+  * In practice, this assumption is difficult to make, because we cannot truly account for every possible variable relevant to the outcome variable. You would have to assume that all unobserved variables are not related to the treatment and do not contribute any effects to the outcome variable.
+
+**Ordinary Least Squares (OLS) Regression**
+
+  * In OLS regressions, we want to draw a line through a set of points that represents the data.
+  * We calculate the distance between each data point and the line. We then square that distance. Do this for all data points and find the sum of all thes squared distances.
+  * The OLS regression line is the line that minimizes the sum of all these squared distances.
+  * Assumptions:
+      - sample is random
+      - outcome variable is continuous
+
+**Interaction Effects**
+
+  * If an independent variable `\(z\)` changes the effect of another independent variable `\(x\)` on the outcome variable `\(y\)`, we have an **interaction effect** between `\(x\)` and `\(z\)`. The original regression model `\(y=\beta_0 +\beta_1 x + e\)` turns into `\(y=\beta_0 +\beta_1 x + \beta_2z + \beta_3~x*z + e\)`.
+  
+  * This concept is also called **statistical moderation**, since `\(z\)` moderates the effect of `\(x\)` on `\(y\)`.
+
+**Calculating Average Treatment Effects**
+
+
+```
+## 
+## Attaching package: 'dplyr'
+```
+
+```
+## The following objects are masked from 'package:stats':
+## 
+##     filter, lag
+```
+
+```
+## The following objects are masked from 'package:base':
+## 
+##     intersect, setdiff, setequal, union
+```
+
+
+-------------------------------------------------------------------------------------
+ Person   Gender   Treated     Outcome        Outcome        Unit-Level     Observed 
+                             with Policy   without Policy   Causal Effect   Outcome  
+-------- -------- --------- ------------- ---------------- --------------- ----------
+   1        M         Y          80              60              20            80    
+
+   2        M         Y          75              70               5            75    
+
+   3        M         Y          85              80               5            85    
+
+   4        M         N          70              60              10            60    
+
+   5        F         Y          75              70               5            75    
+
+   6        F         N          80              80               0            80    
+
+   7        F         N          90             100              -10          100    
+
+   8        F         N          85              80               5            80    
+-------------------------------------------------------------------------------------
+
+Table: Table 1  Potential Outcomes of Treatment by Gender
+
+  * In the example table above, we have two potential outcomes for each person: `Outcome with Policy` and `Outcome without Policy`. In practice, you would never be able to observe both potential outcomes for each person. You either observe `Outcome with Policy` if the person received treatment or `Outcome without Policy` if the person did not receive treatment. In actual data, you would only obtain `Observed Outcome`.
+  * Unit-Level Causal Effect = Outcome with Policy - Outcome without Policy
+  * Average Treatment Effect (ATE) = average of all the unit-level causal effects
+      - Using the example data above, ATE `\(= \frac{20+5+5+10+5+0-10+5}{8}= 5\)`.
+  * Conditional Avg. Treatment Effect (CATE) = average treatment effect for a subset of the units
+      - Example: CATE for men is `\(\frac{20+5+5+10}{4} = 10\)`.
+      - Example: CATE for women is `\(\frac{5+0-10+5}{4} = 0\)`.
+  * Average Treatment Effect on the Treated (ATT) = average treatment effect for only the people who received treatment
+      - In the table above, Persons 1, 2, 3, and 5 received treatment.
+      - To calculate ATT, we take the average of the unit-level causal effects of these treated people.
+      - ATT `\(= \frac{20+5+5+5}{4} = 8.75\)`
+  * Difference in Mean Outcomes b/w Treated and Untreated (Control) Groups = ATT + Bias
+      - left-hand side (LHS) = `\(\frac{80+75+85+75}{4}-\frac{60+80+100+80}{4} =\)` -1.25
+      - ATT = 8.75
+      - Bias = difference in the averages in `Outcome without Policy` between treated and untreated groups
+          + If this bias term is nonzero, we can say that the data has **selection bias**, because the selection into treatment is associated with potential outcomes.
+          + For `Treated = Y`, average `Outcome without Policy` = `\(\frac{60+70+80+70}{4}\)` = 70.
+          + For `Treated = N`, average `Outcome without Policy` = `\(\frac{60+80+100+80}{4}\)` = 80.
+          + Bias = 70 - 80 = -10.
+          + In this example, people selected for treatment have a much lower potential outcome without treatment than that of people not selected for treatment.
+          + This negative selection bias will understate the actual impact of the treatment.
+          + Similarly, positive selection bias will overstate the actual impact of the treatment.
+      - right-hand side (RHS) = ATT + Bias = `\(8.75 - 10 = -1.25\)`
+      - Thus, LHS = RHS.
+      - In randomized experiments, the assignment of treatment is randomized, making the selection bias zero. Thus, the LHS (difference in the mean observed outcomes between the treated/untreated groups) equals ATT. Note that ATT is the average treatment effect (ATE) conditioned on being in the treatment group. Under randomization, we can assume that the potential outcomes are independent of the treatment assignment, so the average treatment effect is the same regardless of conditioning on treatment assignment. Thus, LHS = ATT + zero bias = ATE.
+      - In this example data, we know that treatment is not randomly assigned, since more men received treatment than women. This means that treatment is correlated with gender. Thus, the calculations done above *do not* represents estimates of the average treatment effect due to the selection bias.
+      - Instead, we assume that treatment assignment is randomized within each gender group. We calculate the estimated conditional average treatment effects `\(\widehat{CATE}(m)\)` and `\(\widehat{CATE}(f)\)` for males and females, respectively, by taking the difference between the average treatment group outcome and the average control (untreated) group outcome *within* each gender.
+          + `\(\widehat{CATE}(m) = \frac{80+75+85}{3}-60 = 20\)`
+          + `\(\widehat{CATE}(f) = 75 - \frac{80+100+80}{3} = -11.67\)`
+      - We add a hat on top of CATE to denote that the calculations are estimates. These estimates `\(\widehat{CATE}(m)=20\)` and `\(\widehat{CATE}(f)=-11.67\)` are different from `\(CATE(m)=10\)` and `\(CATE(f)=0\)` that we calculated earlier. The CATEs without the hats are the true conditional average effects based on the difference in the two potential outcomes (with/without treatment) for each person. In practice, we will never be able to calculate the true CATEs, because we can never know both potential outcomes for each person. We only have one observed outcome for each person that we use to estimate CATE with `\(\widehat{CATE}\)`.
+      - To estimate ATE, we take the weighted average of the estimated CATEs. In this case, both gender groups are equally weighted, so `\(\widehat{ATE} = \frac{1}{2}\widehat{CATE}(m)+\frac{1}{2}\widehat{CATE}(f) = 20 - 11.67 = 4.16\)`.
+      - Note that `\(\widehat{ATE} = 4.16\)` is positive, whereas earlier calculation of LHS (difference in the mean observed outcomes in the treated/untreated groups) is negative, which understates the average treatment effect due to negative selection bias arising from non-random assignment of treatment between gender.
+
+### Matching Methods
+
+In this method, we want to find units with similar explanatory variables but assigned to different treatments. One way to do this is propensity score matching. 
 
 ### Instrumental Variables
 
@@ -275,6 +422,7 @@ These notes are based on Professor Masten's [online course](https://modu.ssri.du
   * [Hypothesis Testing Roadmap](http://www.bmgi.org/sites/bmgi.org/files/HTR%20MT17.pdf)
   * [Chosing the Correct Statistical Test in SAS, Stata, SPSS, and R](https://stats.idre.ucla.edu/other/mult-pkg/whatstat/)
   * [Uses & Misuses of Statistics](http://influentialpoints.com/Training/statistical_mistakes_in_research_use_and_misuse_of_statistics_in_biology.htm)
+  * [Statistical Tests in R](http://r-statistics.co/Statistical-Tests-in-R.html)
   
   * 1 group
       - interval variables
@@ -314,9 +462,10 @@ These notes are based on Professor Masten's [online course](https://modu.ssri.du
 ### 1-sample t-test
 
   * Assumptions:
-      - data is a simple random sample from population
-      - data follows normal distribution
-      - by Central Limit Theorm, with sample size `\(n>=30\)`, the sample mean is normally distributed regardless of the population distribution
+      - data is a simple random sample from population 
+      - sample mean follows a normal distribution 
+      - by the Central Limit Theorem, with sample size `\(n>=30\)`, the sample mean is normally distributed regardless of the population distribution
+
   * Two-tailed Hypothesis:
   $$ H_0: \mu = \mu_0 $$
   $$ H_1: \mu \neq \mu_0 $$
@@ -352,7 +501,7 @@ These notes are based on Professor Masten's [online course](https://modu.ssri.du
       - two independent samples are randomly selected from two populations with the same variance
       - if you cannot use the assumption of same variance, use the Welch two-sample t-test
         + test statistic is the same as below, but degrees of freedom are adjusted
-        + 
+        
       - if populations are not normally distributed, the sample sizes `\(n_1\)` and `\(n_2\)` from the two populations needs to be at least 30 to ensure that the distribution of the sample means are normal by the Central Limit Theorem
   * Two-tailed Hypothesis:
     $$ H_0: \mu_1 = \mu_2 $$
@@ -394,6 +543,40 @@ These notes are based on Professor Masten's [online course](https://modu.ssri.du
   
 ### ANOVA
 
+  * [F Distribution and Basic Principle Behind ANOVAs](http://www.bodowinter.com/tutorial/bw_anova_general.pdf)
+  
+## Regression
+
+### Simple Linear Regression
+
+A simple linear regression has the form `\(y=\beta_0 + \beta_1 x + e\)`, where
+
+  * `\(y\)` is the dependent (or outcome) variable
+  * `\(x\)` is the indepndent (or explanatory) variable
+  * `\(\beta_0\)`, the regression intercept, represents the average value of the outcome variable `\(y\)` when `\(x=0\)`
+  * `\(\beta_1\)` is the regression coefficient of `\(x\)`
+      - for each 1-unit increase in `\(x\)`, `\(y\)` changes by `\(\beta_1\)`
+      - `\(\beta_1\)` is the slope of this regression line
+  * `\(e\)` is the error term. Some textbooks will use the variable `\(u\)` instead of `\(e\)` to emphasize that this term includes all unobserved variables.
+  
+### Multiple Linear Regression
+
+Linear regressions with multiple explanatory variables are called **multiple linear regressions**. If we have `\(n\)` explanatory variables, the multiple linear regression will have the form `\(y=\beta_0 + \beta_1 x_1 + \beta_2 x_2 + ... + \beta_n x_n + e\)`, where
+
+  * `\(\beta_0\)`, the regression intercept, represents the average value of the outcome variable `\(y\)` when all the explanatory variables `\(x_1, x_2,...,x_n\)` are zero.
+  * `\(\beta_1\)` represents how much `\(y\)` changes when `\(x_1\)` increases by 1 unit, holding all other explanatory variables constant. The Latin phrase *ceteris paribus*, meaning "other things equal," is often used to describe this concept. This does not mean the other explanatory variables do not change. Rather, we are isolating the effect of `\(x_1\)` on `\(y\)` under the theoretical condition that the other explanatory variables are held constant.
+  * This interpretation of `\(\beta_1\)` extends to all the other regresssion coeffients.
+
+### Logistic Regression
+
+  * outcome variable is binary (e.g., 0 or 1; yes or no)
+  
+### Mixed Effects Models
+
+  * [Linear Models and Linear Mixed Effects Models in R: Tutorial 1](http://www.bodowinter.com/tutorial/bw_anova_general.pdf)
+  * [A Very Basic Tutorial for Performing Linear Mixed Effects Analyses: Tutorial 2](http://www.bodowinter.com/tutorial/bw_LME_tutorial2.pdf)
+  
+  
 ## Numerical Methods
 
 In AP Calculus, you mostly encountered problems that can be solved analytically. However, in research, many differential equation models do not have analytical forms and must be solved numerically. Matlab is often used in applied math, engineering, and physical sciences for such cases as well as other modeling applications. Octave is an open-source alternative to Matlab. While R not the first language that comes to mind for numerical methods, many [numerical R packages](https://cran.r-project.org/web/views/NumericalMathematics.html) have been developed as well as integration with Matlab, Octave, and Julia.
@@ -411,10 +594,32 @@ In AP Calculus, you mostly encountered problems that can be solved analytically.
 
 ### Numerical Solutions to Differential Equations
 
+  * [Integrating ODEs in R](https://kingaa.github.io/thid/odes/ODEs_in_R.pdf)
   * [Euler Method Using Matlab](http://www.ohiouniversityfaculty.com/youngt/IntNumMeth/lecture30.pdf)
+  * [Euler Method with Python](http://faculty.washington.edu/heathml/2018spring307/euler_method.pdf)
   * Runge-Kutta Methods
   
   
+
+## Text Analysis
+
+  * [Text Mining with R](https://www.tidytextmining.com/ngrams.html)
+  
+  * Mosteller and Wallace (1963) and the Federalist Papers
+  
+      - [How Statistics Solved a 175-Year-Old Mystery About Alexander Hamilton](https://priceonomics.com/how-statistics-solved-a-175-year-old-mystery-about/)
+      
+      - [Replication of Analysis in Mosteller and Wallace (1963)](http://ptrckprry.com/course/ssd/lecture/federalist.html)
+  
+## Network Analysis
+
+  * [Introduction to Network Analysis with R](https://www.jessesadler.com/post/network-analysis-with-r/)
+  
+## Geospatial Analysis
+
+  * [Geocomputation with R](https://geocompr.robinlovelace.net/)
+  
+
 # Resources by Discipline {-}
 
 ## Biology & Biostatistics {-}

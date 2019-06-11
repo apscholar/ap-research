@@ -14,14 +14,14 @@ links:
   url: https://www.overleaf.com/read/ncvzdvcvfxdx
 - name: Github
   url: https://github.com/ap-research/proposal
-projects:
-- internal-project
+# projects:
+# - internal-project
 publication: 
 publication_short:
 publication_types:
 - "8"
 publishDate: "2017-01-01T00:00:00Z"
-slides: example
+# slides: example
 summary: research proposal guidelines and template
 tags:
 - Class Docs

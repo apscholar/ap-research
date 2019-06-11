@@ -429,6 +429,17 @@ Show ways to keep track of sources for bibliography.&lt;/p&gt;
 
 &lt;h2 id=&#34;bias-vs-variance-tradeoff&#34;&gt;Bias vs. Variance Tradeoff&lt;/h2&gt;
 
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/understanding-the-bias-variance-tradeoff-165e6942b229&#34; target=&#34;_blank&#34;&gt;Understanding the Bias-Variance Tradeoff&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;As you introduce more variables to a model, bias tends to decrease. This means that on average the model will make predictions closer to the true value.&lt;/li&gt;
+&lt;li&gt;However, at the same time, variance tends to increase with the added variables. This means that each time you input the model with another random set of data, the outputted predictions will vary a lot. Why? More variables in the model means you might be in danger of overfitting your specific data. This means your model is so specifically tailored to your data at hand that it probably won&amp;rsquo;t generalize well if you applied the model to other randomly drawn datasets.
+
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id=&#34;curse-of-dimensionality&#34;&gt;Curse of Dimensionality&lt;/h2&gt;
 
 &lt;h2 id=&#34;correlation-vs-causation&#34;&gt;Correlation vs. Causation&lt;/h2&gt;
@@ -445,9 +456,36 @@ Show ways to keep track of sources for bibliography.&lt;/p&gt;
 
 &lt;h2 id=&#34;case-study&#34;&gt;Case Study&lt;/h2&gt;
 
+&lt;h2 id=&#34;case-control-study&#34;&gt;Case-Control Study&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://sph.unc.edu/files/2015/07/nciph_ERIC5.pdf&#34; target=&#34;_blank&#34;&gt;Case-Control Studies&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The diagram on the first page provides a clear overview of case-control study design.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://sphweb.bumc.bu.edu/otlt/MPH-Modules/EP/EP713_Case-Control/EP713_Case-Control_print.html&#34; target=&#34;_blank&#34;&gt;Overview of Case-Control Design&lt;/a&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id=&#34;causal&#34;&gt;Causal&lt;/h2&gt;
 
 &lt;h2 id=&#34;cohort&#34;&gt;Cohort&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Sample a cohort of people from a population of interest&lt;/li&gt;
+&lt;li&gt;Follow this cohort for many years (often decades)&lt;/li&gt;
+&lt;li&gt;Record their attributes and exposures.&lt;/li&gt;
+&lt;li&gt;Record who develops outcome of interest (ongoing process).
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This method can be costly, both monetarily and time-wise.&lt;/li&gt;
+&lt;li&gt;Compare this method with case-control studies, which are a type of observational study often used in epidemiology.
+
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;cross-sectional&#34;&gt;Cross Sectional&lt;/h2&gt;
 
@@ -667,7 +705,169 @@ Show ways to keep track of sources for bibliography.&lt;/p&gt;
 &lt;/ol&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;regression-as-causality&#34;&gt;Regression as Causality&lt;/h3&gt;
+&lt;h3 id=&#34;regression&#34;&gt;Regression&lt;/h3&gt;
+
+&lt;p&gt;In general, regression analysis can show only correlations between variables but not causation. The following are some factors that would prevent you from making the leap from correlation to causation in regression analysis:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Confounding Variables&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A confounding variable is a hidden variable that has an influence on both the dependent variable and independent (or outcome) variable.&lt;/li&gt;
+&lt;li&gt;This distorts the asssocation between the dependent and independent variable.&lt;/li&gt;
+&lt;li&gt;Example: Suppose we want to test the effect of the number of books at home (dependent variable) on a child&amp;rsquo;s reading proficiency (independent variable). A confounding factor could be the mother&amp;rsquo;s level of education, which could effect both the number of books at home and the child&amp;rsquo;s reading proficiency. Without accounting for the mother&amp;rsquo;s level of education, we could be overstating the effect of books on reading proficiency.
+
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Reverse Causality&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;In your study of the effect of A on B, you spot an association between the two variables. However, the direction of causality acturally could be reversed (i.e., B has an effect on A).&lt;/li&gt;
+&lt;li&gt;Example: Suppose you notice that as the debt of a country increases, its economic growth decreases. The cause-and-effect relationship could be the other way around. Maybe a faltering economy is the reason that countries have to accumulate more debt to meet their budgets.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Simultaneity&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Similar to reverse causality, except that that direction of causality goes both ways at the same time. X causes Y, and Y causes X.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Mediating Variable&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Example: Does consuming caffeine stunt children&amp;rsquo;s growth? We might question this causal link if we examine the mediating variable of sleep duration. Perhaps drinking coffee disrupts sleep patterns, which in turn affects growth.
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Unconfoundedness Assumption&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Under the unconfounded assumption (a.k.a. &lt;strong&gt;selection on observables assumption&lt;/strong&gt;), we have controlled for enough variables that we assume no confounding variables exists. With this assumption, we can consider the association between the treatment and outcome variable to be causal, since conditioning on all the other variables makes the treatment assignment essentially random.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;In practice, this assumption is difficult to make, because we cannot truly account for every possible variable relevant to the outcome variable. You would have to assume that all unobserved variables are not related to the treatment and do not contribute any effects to the outcome variable.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Ordinary Least Squares (OLS) Regression&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;In OLS regressions, we want to draw a line through a set of points that represents the data.&lt;/li&gt;
+&lt;li&gt;We calculate the distance between each data point and the line. We then square that distance. Do this for all data points and find the sum of all thes squared distances.&lt;/li&gt;
+&lt;li&gt;The OLS regression line is the line that minimizes the sum of all these squared distances.&lt;/li&gt;
+&lt;li&gt;Assumptions:
+
+&lt;ul&gt;
+&lt;li&gt;sample is random&lt;/li&gt;
+&lt;li&gt;outcome variable is continuous&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Interaction Effects&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;If an independent variable &lt;code&gt;\(z\)&lt;/code&gt; changes the effect of another independent variable &lt;code&gt;\(x\)&lt;/code&gt; on the outcome variable &lt;code&gt;\(y\)&lt;/code&gt;, we have an &lt;strong&gt;interaction effect&lt;/strong&gt; between &lt;code&gt;\(x\)&lt;/code&gt; and &lt;code&gt;\(z\)&lt;/code&gt;. The original regression model &lt;code&gt;\(y=\beta_0 +\beta_1 x + e\)&lt;/code&gt; turns into &lt;code&gt;\(y=\beta_0 +\beta_1 x + \beta_2z + \beta_3~x*z + e\)&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;This concept is also called &lt;strong&gt;statistical moderation&lt;/strong&gt;, since &lt;code&gt;\(z\)&lt;/code&gt; moderates the effect of &lt;code&gt;\(x\)&lt;/code&gt; on &lt;code&gt;\(y\)&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Calculating Average Treatment Effects&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;## 
+## Attaching package: &#39;dplyr&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     filter, lag
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;## The following objects are masked from &#39;package:base&#39;:
+## 
+##     intersect, setdiff, setequal, union
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Person   Gender   Treated     Outcome        Outcome        Unit-Level     Observed
+                             with Policy   without Policy   Causal Effect   Outcome&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;1        M         Y          80              60              20            80&lt;/p&gt;
+
+&lt;p&gt;2        M         Y          75              70               5            75&lt;/p&gt;
+
+&lt;p&gt;3        M         Y          85              80               5            85&lt;/p&gt;
+
+&lt;p&gt;4        M         N          70              60              10            60&lt;/p&gt;
+
+&lt;p&gt;5        F         Y          75              70               5            75&lt;/p&gt;
+
+&lt;p&gt;6        F         N          80              80               0            80&lt;/p&gt;
+
+&lt;p&gt;7        F         N          90             100              -10          100&lt;/p&gt;
+
+&lt;h2 id=&#34;8-f-n-85-80-5-80&#34;&gt;8        F         N          85              80               5            80&lt;/h2&gt;
+
+&lt;p&gt;Table: Table 1  Potential Outcomes of Treatment by Gender&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;In the example table above, we have two potential outcomes for each person: &lt;code&gt;Outcome with Policy&lt;/code&gt; and &lt;code&gt;Outcome without Policy&lt;/code&gt;. In practice, you would never be able to observe both potential outcomes for each person. You either observe &lt;code&gt;Outcome with Policy&lt;/code&gt; if the person received treatment or &lt;code&gt;Outcome without Policy&lt;/code&gt; if the person did not receive treatment. In actual data, you would only obtain &lt;code&gt;Observed Outcome&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Unit-Level Causal Effect = Outcome with Policy - Outcome without Policy&lt;/li&gt;
+&lt;li&gt;Average Treatment Effect (ATE) = average of all the unit-level causal effects
+
+&lt;ul&gt;
+&lt;li&gt;Using the example data above, ATE &lt;code&gt;\(= \frac{20+5+5+10+5+0-10+5}{8}= 5\)&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Conditional Avg. Treatment Effect (CATE) = average treatment effect for a subset of the units
+
+&lt;ul&gt;
+&lt;li&gt;Example: CATE for men is &lt;code&gt;\(\frac{20+5+5+10}{4} = 10\)&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Example: CATE for women is &lt;code&gt;\(\frac{5+0-10+5}{4} = 0\)&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Average Treatment Effect on the Treated (ATT) = average treatment effect for only the people who received treatment
+
+&lt;ul&gt;
+&lt;li&gt;In the table above, Persons 1, 2, 3, and 5 received treatment.&lt;/li&gt;
+&lt;li&gt;To calculate ATT, we take the average of the unit-level causal effects of these treated people.&lt;/li&gt;
+&lt;li&gt;ATT &lt;code&gt;\(= \frac{20+5+5+5}{4} = 8.75\)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Difference in Mean Outcomes b/w Treated and Untreated (Control) Groups = ATT + Bias
+
+&lt;ul&gt;
+&lt;li&gt;left-hand side (LHS) = &lt;code&gt;\(\frac{80+75+85+75}{4}-\frac{60+80+100+80}{4} =\)&lt;/code&gt; -1.25&lt;/li&gt;
+&lt;li&gt;ATT = 8.75&lt;/li&gt;
+&lt;li&gt;Bias = difference in the averages in &lt;code&gt;Outcome without Policy&lt;/code&gt; between treated and untreated groups
+
+&lt;ul&gt;
+&lt;li&gt;If this bias term is nonzero, we can say that the data has &lt;strong&gt;selection bias&lt;/strong&gt;, because the selection into treatment is associated with potential outcomes.&lt;/li&gt;
+&lt;li&gt;For &lt;code&gt;Treated = Y&lt;/code&gt;, average &lt;code&gt;Outcome without Policy&lt;/code&gt; = &lt;code&gt;\(\frac{60+70+80+70}{4}\)&lt;/code&gt; = 70.&lt;/li&gt;
+&lt;li&gt;For &lt;code&gt;Treated = N&lt;/code&gt;, average &lt;code&gt;Outcome without Policy&lt;/code&gt; = &lt;code&gt;\(\frac{60+80+100+80}{4}\)&lt;/code&gt; = 80.&lt;/li&gt;
+&lt;li&gt;Bias = 70 - 80 = -10.&lt;/li&gt;
+&lt;li&gt;In this example, people selected for treatment have a much lower potential outcome without treatment than that of people not selected for treatment.&lt;/li&gt;
+&lt;li&gt;This negative selection bias will understate the actual impact of the treatment.&lt;/li&gt;
+&lt;li&gt;Similarly, positive selection bias will overstate the actual impact of the treatment.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;right-hand side (RHS) = ATT + Bias = &lt;code&gt;\(8.75 - 10 = -1.25\)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Thus, LHS = RHS.&lt;/li&gt;
+&lt;li&gt;In randomized experiments, the assignment of treatment is randomized, making the selection bias zero. Thus, the LHS (difference in the mean observed outcomes between the treated/untreated groups) equals ATT. Note that ATT is the average treatment effect (ATE) conditioned on being in the treatment group. Under randomization, we can assume that the potential outcomes are independent of the treatment assignment, so the average treatment effect is the same regardless of conditioning on treatment assignment. Thus, LHS = ATT + zero bias = ATE.&lt;/li&gt;
+&lt;li&gt;In this example data, we know that treatment is not randomly assigned, since more men received treatment than women. This means that treatment is correlated with gender. Thus, the calculations done above &lt;em&gt;do not&lt;/em&gt; represents estimates of the average treatment effect due to the selection bias.&lt;/li&gt;
+&lt;li&gt;Instead, we assume that treatment assignment is randomized within each gender group. We calculate the estimated conditional average treatment effects &lt;code&gt;\(\widehat{CATE}(m)\)&lt;/code&gt; and &lt;code&gt;\(\widehat{CATE}(f)\)&lt;/code&gt; for males and females, respectively, by taking the difference between the average treatment group outcome and the average control (untreated) group outcome &lt;em&gt;within&lt;/em&gt; each gender.
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;\(\widehat{CATE}(m) = \frac{80+75+85}{3}-60 = 20\)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\(\widehat{CATE}(f) = 75 - \frac{80+100+80}{3} = -11.67\)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;We add a hat on top of CATE to denote that the calculations are estimates. These estimates &lt;code&gt;\(\widehat{CATE}(m)=20\)&lt;/code&gt; and &lt;code&gt;\(\widehat{CATE}(f)=-11.67\)&lt;/code&gt; are different from &lt;code&gt;\(CATE(m)=10\)&lt;/code&gt; and &lt;code&gt;\(CATE(f)=0\)&lt;/code&gt; that we calculated earlier. The CATEs without the hats are the true conditional average effects based on the difference in the two potential outcomes (with/without treatment) for each person. In practice, we will never be able to calculate the true CATEs, because we can never know both potential outcomes for each person. We only have one observed outcome for each person that we use to estimate CATE with &lt;code&gt;\(\widehat{CATE}\)&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;To estimate ATE, we take the weighted average of the estimated CATEs. In this case, both gender groups are equally weighted, so &lt;code&gt;\(\widehat{ATE} = \frac{1}{2}\widehat{CATE}(m)+\frac{1}{2}\widehat{CATE}(f) = 20 - 11.67 = 4.16\)&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Note that &lt;code&gt;\(\widehat{ATE} = 4.16\)&lt;/code&gt; is positive, whereas earlier calculation of LHS (difference in the mean observed outcomes in the treated/untreated groups) is negative, which understates the average treatment effect due to negative selection bias arising from non-random assignment of treatment between gender.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;matching-methods&#34;&gt;Matching Methods&lt;/h3&gt;
+
+&lt;p&gt;In this method, we want to find units with similar explanatory variables but assigned to different treatments. One way to do this is propensity score matching.&lt;/p&gt;
 
 &lt;h3 id=&#34;instrumental-variables&#34;&gt;Instrumental Variables&lt;/h3&gt;
 
@@ -677,8 +877,9 @@ Show ways to keep track of sources for bibliography.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;http://rcompanion.org/handbook/D_03.html&#34; target=&#34;_blank&#34;&gt;Choosing a Statistical Test&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.bmgi.org/sites/bmgi.org/files/HTR%20MT17.pdf&#34; target=&#34;_blank&#34;&gt;Hypothesis Testing Roadmap&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://stats.idre.ucla.edu/other/mult-pkg/whatstat/&#34; target=&#34;_blank&#34;&gt;Chosing the Correct Statistical Test in SAS, Stata, SPSS, and R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://influentialpoints.com/Training/statistical_mistakes_in_research_use_and_misuse_of_statistics_in_biology.htm&#34; target=&#34;_blank&#34;&gt;Uses &amp;amp; Misuses of Statistics&lt;/a&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://influentialpoints.com/Training/statistical_mistakes_in_research_use_and_misuse_of_statistics_in_biology.htm&#34; target=&#34;_blank&#34;&gt;Uses &amp;amp; Misuses of Statistics&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://r-statistics.co/Statistical-Tests-in-R.html&#34; target=&#34;_blank&#34;&gt;Statistical Tests in R&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;1 group&lt;/p&gt;
 
@@ -753,12 +954,12 @@ Show ways to keep track of sources for bibliography.&lt;/p&gt;
 &lt;h3 id=&#34;1-sample-t-test&#34;&gt;1-sample t-test&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Assumptions:
+&lt;li&gt;&lt;p&gt;Assumptions:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;data is a simple random sample from population&lt;/li&gt;
-&lt;li&gt;data follows normal distribution&lt;/li&gt;
-&lt;li&gt;by Central Limit Theorm, with sample size &lt;code&gt;\(n&amp;gt;=30\)&lt;/code&gt;, the sample mean is normally distributed regardless of the population distribution&lt;/li&gt;
+&lt;li&gt;sample mean follows a normal distribution&lt;/li&gt;
+&lt;li&gt;by the Central Limit Theorem, with sample size &lt;code&gt;\(n&amp;gt;=30\)&lt;/code&gt;, the sample mean is normally distributed regardless of the population distribution&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Two-tailed Hypothesis:
@@ -805,17 +1006,19 @@ $$ z = \frac{p-\pi_0}{\sqrt{\frac{\pi_0 (1-\pi_0)}{n}}} \sim \mathcal{N}(0,1) $$
 &lt;h3 id=&#34;t-test-for-2-independent-samples&#34;&gt;t-test for 2 independent samples&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Assumptions:
+&lt;li&gt;&lt;p&gt;Assumptions:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;two independent samples are randomly selected from two populations with the same variance&lt;/li&gt;
-&lt;li&gt;if you cannot use the assumption of same variance, use the Welch two-sample t-test
+
+&lt;li&gt;&lt;p&gt;if you cannot use the assumption of same variance, use the Welch two-sample t-test&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;test statistic is the same as below, but degrees of freedom are adjusted&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;test statistic is the same as below, but degrees of freedom are adjusted
+&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;if populations are not normally distributed, the sample sizes &lt;code&gt;\(n_1\)&lt;/code&gt; and &lt;code&gt;\(n_2\)&lt;/code&gt; from the two populations needs to be at least 30 to ensure that the distribution of the sample means are normal by the Central Limit Theorem&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;if populations are not normally distributed, the sample sizes &lt;code&gt;\(n_1\)&lt;/code&gt; and &lt;code&gt;\(n_2\)&lt;/code&gt; from the two populations needs to be at least 30 to ensure that the distribution of the sample means are normal by the Central Limit Theorem&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Two-tailed Hypothesis:
@@ -873,6 +1076,57 @@ $$ S_p^2 = \frac{(n_1-1)S_1^2 + (n_2-1)S_2^2}{(n_1-1)+(n_2-1)} $$&lt;/p&gt;
 
 &lt;h3 id=&#34;anova&#34;&gt;ANOVA&lt;/h3&gt;
 
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.bodowinter.com/tutorial/bw_anova_general.pdf&#34; target=&#34;_blank&#34;&gt;F Distribution and Basic Principle Behind ANOVAs&lt;/a&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;regression-1&#34;&gt;Regression&lt;/h2&gt;
+
+&lt;h3 id=&#34;simple-linear-regression&#34;&gt;Simple Linear Regression&lt;/h3&gt;
+
+&lt;p&gt;A simple linear regression has the form &lt;code&gt;\(y=\beta_0 + \beta_1 x + e\)&lt;/code&gt;, where&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;\(y\)&lt;/code&gt; is the dependent (or outcome) variable&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\(x\)&lt;/code&gt; is the indepndent (or explanatory) variable&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\(\beta_0\)&lt;/code&gt;, the regression intercept, represents the average value of the outcome variable &lt;code&gt;\(y\)&lt;/code&gt; when &lt;code&gt;\(x=0\)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\(\beta_1\)&lt;/code&gt; is the regression coefficient of &lt;code&gt;\(x\)&lt;/code&gt;
+
+&lt;ul&gt;
+&lt;li&gt;for each 1-unit increase in &lt;code&gt;\(x\)&lt;/code&gt;, &lt;code&gt;\(y\)&lt;/code&gt; changes by &lt;code&gt;\(\beta_1\)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\(\beta_1\)&lt;/code&gt; is the slope of this regression line&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\(e\)&lt;/code&gt; is the error term. Some textbooks will use the variable &lt;code&gt;\(u\)&lt;/code&gt; instead of &lt;code&gt;\(e\)&lt;/code&gt; to emphasize that this term includes all unobserved variables.
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;multiple-linear-regression&#34;&gt;Multiple Linear Regression&lt;/h3&gt;
+
+&lt;p&gt;Linear regressions with multiple explanatory variables are called &lt;strong&gt;multiple linear regressions&lt;/strong&gt;. If we have &lt;code&gt;\(n\)&lt;/code&gt; explanatory variables, the multiple linear regression will have the form &lt;code&gt;\(y=\beta_0 + \beta_1 x_1 + \beta_2 x_2 + ... + \beta_n x_n + e\)&lt;/code&gt;, where&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;\(\beta_0\)&lt;/code&gt;, the regression intercept, represents the average value of the outcome variable &lt;code&gt;\(y\)&lt;/code&gt; when all the explanatory variables &lt;code&gt;\(x_1, x_2,...,x_n\)&lt;/code&gt; are zero.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\(\beta_1\)&lt;/code&gt; represents how much &lt;code&gt;\(y\)&lt;/code&gt; changes when &lt;code&gt;\(x_1\)&lt;/code&gt; increases by 1 unit, holding all other explanatory variables constant. The Latin phrase &lt;em&gt;ceteris paribus&lt;/em&gt;, meaning &amp;ldquo;other things equal,&amp;rdquo; is often used to describe this concept. This does not mean the other explanatory variables do not change. Rather, we are isolating the effect of &lt;code&gt;\(x_1\)&lt;/code&gt; on &lt;code&gt;\(y\)&lt;/code&gt; under the theoretical condition that the other explanatory variables are held constant.&lt;/li&gt;
+&lt;li&gt;This interpretation of &lt;code&gt;\(\beta_1\)&lt;/code&gt; extends to all the other regresssion coeffients.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;logistic-regression&#34;&gt;Logistic Regression&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;outcome variable is binary (e.g., 0 or 1; yes or no)
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mixed-effects-models&#34;&gt;Mixed Effects Models&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.bodowinter.com/tutorial/bw_anova_general.pdf&#34; target=&#34;_blank&#34;&gt;Linear Models and Linear Mixed Effects Models in R: Tutorial 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.bodowinter.com/tutorial/bw_LME_tutorial2.pdf&#34; target=&#34;_blank&#34;&gt;A Very Basic Tutorial for Performing Linear Mixed Effects Analyses: Tutorial 2&lt;/a&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id=&#34;numerical-methods&#34;&gt;Numerical Methods&lt;/h2&gt;
 
 &lt;p&gt;In AP Calculus, you mostly encountered problems that can be solved analytically. However, in research, many differential equation models do not have analytical forms and must be solved numerically. Matlab is often used in applied math, engineering, and physical sciences for such cases as well as other modeling applications. Octave is an open-source alternative to Matlab. While R not the first language that comes to mind for numerical methods, many &lt;a href=&#34;https://cran.r-project.org/web/views/NumericalMathematics.html&#34; target=&#34;_blank&#34;&gt;numerical R packages&lt;/a&gt; have been developed as well as integration with Matlab, Octave, and Julia.&lt;/p&gt;
@@ -899,9 +1153,39 @@ $$ S_p^2 = \frac{(n_1-1)S_1^2 + (n_2-1)S_2^2}{(n_1-1)+(n_2-1)} $$&lt;/p&gt;
 &lt;h3 id=&#34;numerical-solutions-to-differential-equations&#34;&gt;Numerical Solutions to Differential Equations&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kingaa.github.io/thid/odes/ODEs_in_R.pdf&#34; target=&#34;_blank&#34;&gt;Integrating ODEs in R&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.ohiouniversityfaculty.com/youngt/IntNumMeth/lecture30.pdf&#34; target=&#34;_blank&#34;&gt;Euler Method Using Matlab&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://faculty.washington.edu/heathml/2018spring307/euler_method.pdf&#34; target=&#34;_blank&#34;&gt;Euler Method with Python&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Runge-Kutta Methods
 &lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;text-analysis&#34;&gt;Text Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.tidytextmining.com/ngrams.html&#34; target=&#34;_blank&#34;&gt;Text Mining with R&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Mosteller and Wallace (1963) and the Federalist Papers&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://priceonomics.com/how-statistics-solved-a-175-year-old-mystery-about/&#34; target=&#34;_blank&#34;&gt;How Statistics Solved a 175-Year-Old Mystery About Alexander Hamilton&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://ptrckprry.com/course/ssd/lecture/federalist.html&#34; target=&#34;_blank&#34;&gt;Replication of Analysis in Mosteller and Wallace (1963)&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;network-analysis&#34;&gt;Network Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.jessesadler.com/post/network-analysis-with-r/&#34; target=&#34;_blank&#34;&gt;Introduction to Network Analysis with R&lt;/a&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;geospatial-analysis&#34;&gt;Geospatial Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://geocompr.robinlovelace.net/&#34; target=&#34;_blank&#34;&gt;Geocomputation with R&lt;/a&gt;
 &lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 

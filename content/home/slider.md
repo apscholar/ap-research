@@ -16,7 +16,7 @@ height = ""
 # Slides.
 # Duplicate an `[[item]]` block to add more slides.
 [[item]]
-  title = "Welcome to Mr. Li's AP Research Class"
+  title = "Welcome to AP Research"
   content = "2019--2020"
   align = "center"  # Choose `center`, `left`, or `right`.
 
@@ -29,10 +29,10 @@ height = ""
   # Call to action button (optional).
   #   Activate the button by specifying a URL and button label below.
   #   Deactivate by commenting out parameters, prefixing lines with `#`.
-  # cta_label = ""
-  # cta_url = "https://apcentral.collegeboard.org/courses/ap-research?course=ap-research"
-  # cta_icon_pack = "fas"
-  # cta_icon = "graduation-cap"
+  cta_label = "Latest Announcements"
+  cta_url = "#posts"
+  cta_icon_pack = "fas"
+  cta_icon = "graduation-cap"
 
 [[item]]
   title = "College Board"
