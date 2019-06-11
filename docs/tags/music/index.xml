@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Music on AP Research</title>
-    <link>/ap-research/tags/music/</link>
+    <link>https://apscholar.github.io/ap-research/tags/music/</link>
     <description>Recent content in Music on AP Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 May 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/ap-research/tags/music/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://apscholar.github.io/ap-research/tags/music/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Music Chemistry: The Formula of K-Pop</title>
-      <link>/ap-research/publication/sample-paper-b/</link>
+      <link>https://apscholar.github.io/ap-research/publication/sample-paper-b/</link>
       <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/publication/sample-paper-b/</guid>
+      <guid>https://apscholar.github.io/ap-research/publication/sample-paper-b/</guid>
       <description>College Board AP Research Sample Paper B</description>
     </item>
     

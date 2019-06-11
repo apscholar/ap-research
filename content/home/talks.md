@@ -8,7 +8,7 @@ active = true  # Activate this widget? true/false
 weight = 70  # Order that this section will appear.
 
 title = "Recent Presentations"
-subtitle = "[Search All Presentations &#8594;](/talk)"
+subtitle = "[Search All Presentations &#8594;](/ap-research/talk)"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
