@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Presentations on AP Research</title>
+    <link>/ap-research/tags/presentations/</link>
+    <description>Recent content in Presentations on AP Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/ap-research/tags/presentations/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Oral Defense</title>
+      <link>/ap-research/project/internal-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/ap-research/project/internal-project/</guid>
+      <description>Tips on answering questions from panel members during oral defense.</description>
+    </item>
+    
+  </channel>
+</rss>

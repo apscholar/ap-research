@@ -25,7 +25,7 @@ subtitle = "[See All Posts &#8594;](/ap-research/post)"
 
   # Filter posts by a taxonomy term.
   [content.filters]
-    tag = "plot"
+    tag = ""
     category = ""
     publication_type = ""
     exclude_featured = false

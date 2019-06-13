@@ -10,7 +10,9 @@ image:
   focal_point: ""
   preview_only: false
 links:
-- name: Overleaf
+- name: Word
+  url: 'publication/proposal/AP_Research_Proposal_Guidelines.docx'
+- name: LaTeX
   url: https://www.overleaf.com/read/ncvzdvcvfxdx
 - name: Github
   url: https://github.com/ap-research/proposal
@@ -36,13 +38,4 @@ url_source: ''
 url_video: ''
 ---
 
-{{% alert note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /alert %}}
-
-{{% alert note %}}
-Click the *Slides* button above to demo Academic's Markdown slides feature.
-{{% /alert %}}
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
 

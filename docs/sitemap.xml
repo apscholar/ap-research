@@ -3,219 +3,373 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://apscholar.github.io/ap-research/course/syllabus/</loc>
+    <loc>/ap-research/course/syllabus/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apscholar.github.io/ap-research/course/</loc>
+    <loc>/ap-research/course/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apscholar.github.io/ap-research/course/unit2a/</loc>
+    <loc>/ap-research/course/unit2a/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apscholar.github.io/ap-research/tutorials/r/</loc>
+    <loc>/ap-research/tutorials/r/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apscholar.github.io/ap-research/tutorials/r/start/</loc>
+    <loc>/ap-research/tutorials/r/start/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apscholar.github.io/ap-research/tutorials/r/packages/</loc>
+    <loc>/ap-research/tutorials/example/example1/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/ap-research/tutorials/r/packages/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apscholar.github.io/ap-research/course/unit1b/</loc>
+    <loc>/ap-research/course/unit1b/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apscholar.github.io/ap-research/course/unit1a/</loc>
+    <loc>/ap-research/course/unit1a/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apscholar.github.io/ap-research/course/unit0a/</loc>
+    <loc>/ap-research/tutorials/example/example2/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/ap-research/tutorials/example/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/ap-research/course/unit0a/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apscholar.github.io/ap-research/course/unit0b/</loc>
+    <loc>/ap-research/course/unit0b/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apscholar.github.io/ap-research/</loc>
+    <loc>/ap-research/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://apscholar.github.io/ap-research/tags/business/</loc>
+    <loc>/ap-research/tags/business/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://apscholar.github.io/ap-research/talk/example/</loc>
+    <loc>/ap-research/talk/example/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apscholar.github.io/ap-research/talk/</loc>
+    <loc>/ap-research/talk/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apscholar.github.io/ap-research/tags/</loc>
+    <loc>/ap-research/tags/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://apscholar.github.io/ap-research/publication_types/8/</loc>
+    <loc>/ap-research/publication_types/8/</loc>
+    <lastmod>2019-06-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/ap-research/authors/ap-research/</loc>
+    <lastmod>2019-06-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/ap-research/categories/announcements/</loc>
+    <lastmod>2019-06-11T12:39:52-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/ap-research/authors/</loc>
+    <lastmod>2019-06-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/ap-research/categories/</loc>
+    <lastmod>2019-06-11T12:39:52-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/ap-research/tags/class-docs/</loc>
+    <lastmod>2019-06-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/ap-research/publication/inquiry/</loc>
+    <lastmod>2019-06-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/ap-research/publication/</loc>
+    <lastmod>2019-06-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/ap-research/post/</loc>
+    <lastmod>2019-06-11T12:39:52-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/ap-research/publication_types/</loc>
+    <lastmod>2019-06-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/ap-research/2019/06/11/summer-preparation/</loc>
+    <lastmod>2019-06-11T12:39:52-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/ap-research/authors/mr.-li/</loc>
     <lastmod>2019-05-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://apscholar.github.io/ap-research/authors/</loc>
-    <lastmod>2019-05-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apscholar.github.io/ap-research/tags/class-docs/</loc>
-    <lastmod>2019-05-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apscholar.github.io/ap-research/authors/mr.-li/</loc>
-    <lastmod>2019-05-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apscholar.github.io/ap-research/publication/</loc>
+    <loc>/ap-research/publication/proposal/</loc>
     <lastmod>2019-05-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apscholar.github.io/ap-research/publication_types/</loc>
-    <lastmod>2019-05-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apscholar.github.io/ap-research/publication/proposal/</loc>
-    <lastmod>2019-05-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://apscholar.github.io/ap-research/slides/</loc>
+    <loc>/ap-research/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://apscholar.github.io/ap-research/slides/example/</loc>
+    <loc>/ap-research/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apscholar.github.io/ap-research/publication_types/7/</loc>
-    <lastmod>2017-05-01T00:00:00+00:00</lastmod>
+    <loc>/ap-research/privacy/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/ap-research/publication_types/7/</loc>
+    <lastmod>2018-05-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://apscholar.github.io/ap-research/authors/college-board/</loc>
-    <lastmod>2017-05-01T00:00:00+00:00</lastmod>
+    <loc>/ap-research/tags/college-board/</loc>
+    <lastmod>2018-05-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://apscholar.github.io/ap-research/tags/college-board/</loc>
-    <lastmod>2017-05-01T00:00:00+00:00</lastmod>
+    <loc>/ap-research/authors/college-board-sample-paper-a/</loc>
+    <lastmod>2018-05-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://apscholar.github.io/ap-research/publication/sample-paper-a/</loc>
-    <lastmod>2017-05-01T00:00:00+00:00</lastmod>
+    <loc>/ap-research/publication/2018-sample-paper-a/</loc>
+    <lastmod>2018-05-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apscholar.github.io/ap-research/tags/music/</loc>
-    <lastmod>2017-05-01T00:00:00+00:00</lastmod>
+    <loc>/ap-research/tags/history/</loc>
+    <lastmod>2018-05-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://apscholar.github.io/ap-research/publication/sample-paper-b/</loc>
+    <loc>/ap-research/authors/college-board-sample-paper-b/</loc>
+    <lastmod>2018-05-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/ap-research/publication/2018-sample-paper-b/</loc>
+    <lastmod>2018-05-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/ap-research/tags/stem/</loc>
+    <lastmod>2018-05-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/ap-research/publication/2018-sample-paper-c/</loc>
+    <lastmod>2018-05-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/ap-research/authors/college-board-sample-paper-c/</loc>
+    <lastmod>2018-05-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/ap-research/authors/college-board-sample-paper-d/</loc>
+    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/ap-research/publication/2018-sample-paper-d/</loc>
+    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/ap-research/publication/2017-sample-paper-a/</loc>
+    <lastmod>2017-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/ap-research/tags/music/</loc>
+    <lastmod>2017-05-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/ap-research/publication/2017-sample-paper-b/</loc>
+    <lastmod>2017-05-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/ap-research/publication/2017-sample-paper-c/</loc>
+    <lastmod>2017-05-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/ap-research/publication/2017-sample-paper-d/</loc>
     <lastmod>2017-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apscholar.github.io/ap-research/tags/deep-learning/</loc>
+    <loc>/ap-research/tags/political-science/</loc>
+    <lastmod>2016-05-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/ap-research/publication/2016-sample-paper-c/</loc>
+    <lastmod>2016-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/ap-research/authors/college-board-sample-paper-i/</loc>
+    <lastmod>2016-05-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/ap-research/tags/film/</loc>
+    <lastmod>2016-05-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/ap-research/publication/2016-sample-paper-i/</loc>
+    <lastmod>2016-05-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/ap-research/authors/college-board-sample-paper-g/</loc>
+    <lastmod>2016-05-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/ap-research/authors/college-board-sample-paper-k/</loc>
+    <lastmod>2016-05-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/ap-research/publication/2016-sample-paper-g/</loc>
+    <lastmod>2016-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/ap-research/publication/2016-sample-paper-k/</loc>
+    <lastmod>2016-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/ap-research/tags/demo/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://apscholar.github.io/ap-research/tags/demo/</loc>
+    <loc>/ap-research/project/internal-project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/ap-research/tags/presentations/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://apscholar.github.io/ap-research/project/external-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://apscholar.github.io/ap-research/project/internal-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://apscholar.github.io/ap-research/project/</loc>
+    <loc>/ap-research/project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://apscholar.github.io/ap-research/authors/admin/</loc>
+    <loc>/ap-research/project/external-project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apscholar.github.io/ap-research/syllabus/</loc>
+    <loc>/ap-research/authors/admin/</loc>
   </url>
   
   <url>
-    <loc>https://apscholar.github.io/ap-research/weekly/</loc>
+    <loc>/ap-research/syllabus/</loc>
   </url>
   
   <url>
-    <loc>https://apscholar.github.io/ap-research/categories/</loc>
-    <priority>0</priority>
+    <loc>/ap-research/weekly/</loc>
   </url>
   
   <url>
-    <loc>https://apscholar.github.io/ap-research/post/</loc>
-  </url>
-  
-  <url>
-    <loc>https://apscholar.github.io/ap-research/tutorials/</loc>
+    <loc>/ap-research/tutorials/</loc>
   </url>
   
 </urlset>

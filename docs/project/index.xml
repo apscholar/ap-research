@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on AP Research</title>
-    <link>https://apscholar.github.io/ap-research/project/</link>
+    <link>/ap-research/project/</link>
     <description>Recent content in Projects on AP Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://apscholar.github.io/ap-research/project/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/ap-research/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>External Project</title>
-      <link>https://apscholar.github.io/ap-research/project/external-project/</link>
+      <title>Oral Defense</title>
+      <link>/ap-research/project/internal-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://apscholar.github.io/ap-research/project/external-project/</guid>
-      <description>An example of linking directly to an external project website using &lt;code&gt;external_link&lt;/code&gt;.</description>
+      <guid>/ap-research/project/internal-project/</guid>
+      <description>Tips on answering questions from panel members during oral defense.</description>
     </item>
     
     <item>
-      <title>Internal Project</title>
-      <link>https://apscholar.github.io/ap-research/project/internal-project/</link>
+      <title>Reproducible Research</title>
+      <link>/ap-research/project/external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://apscholar.github.io/ap-research/project/internal-project/</guid>
-      <description>An example of using the in-built project page.</description>
+      <guid>/ap-research/project/external-project/</guid>
+      <description>Minimal example of code, data documentation, and integration with paper.</description>
     </item>
     
   </channel>

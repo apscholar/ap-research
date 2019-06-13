@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Deep Learning on AP Research</title>
-    <link>https://apscholar.github.io/ap-research/tags/deep-learning/</link>
+    <link>/ap-research/tags/deep-learning/</link>
     <description>Recent content in Deep Learning on AP Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://apscholar.github.io/ap-research/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/ap-research/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Internal Project</title>
-      <link>https://apscholar.github.io/ap-research/project/internal-project/</link>
+      <link>/ap-research/project/internal-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://apscholar.github.io/ap-research/project/internal-project/</guid>
+      <guid>/ap-research/project/internal-project/</guid>
       <description>An example of using the in-built project page.</description>
     </item>
     

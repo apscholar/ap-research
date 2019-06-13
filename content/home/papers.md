@@ -27,7 +27,7 @@ subtitle = "[Search All Papers &#8594;](/ap-research/publication)"
   [content.filters]
     tag = ""
     category = ""
-    publication_type =  ""
+    publication_type =  "8"
     exclude_featured = false
   
 [design]

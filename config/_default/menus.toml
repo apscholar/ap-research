@@ -9,9 +9,13 @@
   weight = 10
   
 [[main]]
-  name = "Course"
-  url = "course/"
-  weight = 15
+  name = "Calendar"
+  url = "calendar/2019-2020.html"
+  weight = 15  
+#[[main]]
+#  name = "Course"
+#  url = "course/"
+#  weight = 15
 
 [[main]]
   name = "Posts"
@@ -28,10 +32,10 @@
   url = "publication/"
   weight = 30
 
-[[main]]
-  name = "Tutorials"
-  url = "tutorials/"
-  weight = 50
+#[[main]]
+#  name = "Tutorials"
+#  url = "tutorials/"
+#  weight = 50
 
 [[main]]
   name = "Talks"

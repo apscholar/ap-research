@@ -2,39 +2,102 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on AP Research</title>
-    <link>https://apscholar.github.io/ap-research/authors/</link>
+    <link>/ap-research/authors/</link>
     <description>Recent content in Authors on AP Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://apscholar.github.io/ap-research/authors/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/ap-research/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Mr. Li</title>
-      <link>https://apscholar.github.io/ap-research/authors/mr.-li/</link>
-      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
+      <title>AP Research</title>
+      <link>/ap-research/authors/ap-research/</link>
+      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://apscholar.github.io/ap-research/authors/mr.-li/</guid>
+      <guid>/ap-research/authors/ap-research/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>College Board</title>
-      <link>https://apscholar.github.io/ap-research/authors/college-board/</link>
-      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      <title>Mr. Li</title>
+      <link>/ap-research/authors/mr.-li/</link>
+      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://apscholar.github.io/ap-research/authors/college-board/</guid>
+      <guid>/ap-research/authors/mr.-li/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>College Board Sample Paper A</title>
+      <link>/ap-research/authors/college-board-sample-paper-a/</link>
+      <pubDate>Fri, 04 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/ap-research/authors/college-board-sample-paper-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>College Board Sample Paper B</title>
+      <link>/ap-research/authors/college-board-sample-paper-b/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/ap-research/authors/college-board-sample-paper-b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>College Board Sample Paper C</title>
+      <link>/ap-research/authors/college-board-sample-paper-c/</link>
+      <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/ap-research/authors/college-board-sample-paper-c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>College Board Sample Paper D</title>
+      <link>/ap-research/authors/college-board-sample-paper-d/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/ap-research/authors/college-board-sample-paper-d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>College Board Sample Paper I</title>
+      <link>/ap-research/authors/college-board-sample-paper-i/</link>
+      <pubDate>Mon, 02 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/ap-research/authors/college-board-sample-paper-i/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>College Board Sample Paper G</title>
+      <link>/ap-research/authors/college-board-sample-paper-g/</link>
+      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/ap-research/authors/college-board-sample-paper-g/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>College Board Sample Paper K</title>
+      <link>/ap-research/authors/college-board-sample-paper-k/</link>
+      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/ap-research/authors/college-board-sample-paper-k/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://apscholar.github.io/ap-research/authors/admin/</link>
+      <link>/ap-research/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://apscholar.github.io/ap-research/authors/admin/</guid>
+      <guid>/ap-research/authors/admin/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.</description>
     </item>
     

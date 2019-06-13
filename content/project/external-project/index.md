@@ -4,8 +4,8 @@ external_link: http://example.org
 image:
   caption: Photo by Toa Heftiba on Unsplash
   focal_point: Smart
-summary: An example of linking directly to an external project website using `external_link`.
+summary: Minimal example of code, data documentation, and integration with paper.
 tags:
 - Demo
-title: External Project
+title: Reproducible Research
 ---
