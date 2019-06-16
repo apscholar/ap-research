@@ -21,7 +21,7 @@ email_form = 2
 <!-- Calendly link widget begin -->
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
-<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/dariusli/30min?hide_event_type_details=1'});return false;">Click here to schedule meeting.</a>
+<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/dariusli/15min?hide_event_type_details=1'});return false;">Click here to schedule meeting.</a>
 <!-- Calendly link widget end -->
 
 To my students: Instead of e-mailing me to schedule a time to meet, please use the link above to sign up for a time slot. While walks-in are always welcome during my regular office hours, you may have to wait if another student has scheduled for a time slot.
