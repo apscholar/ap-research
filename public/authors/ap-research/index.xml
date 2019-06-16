@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AP Research</title>
+    <link>https://apscholar.github.io/ap-research/authors/ap-research/</link>
+    <description>Recent content on AP Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://apscholar.github.io/ap-research/authors/ap-research/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Inquiry Proposal Form</title>
+      <link>https://apscholar.github.io/ap-research/publication/inquiry/</link>
+      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://apscholar.github.io/ap-research/publication/inquiry/</guid>
+      <description>template for inquiry proposal form</description>
+    </item>
+    
+  </channel>
+</rss>

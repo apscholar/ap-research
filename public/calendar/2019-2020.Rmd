@@ -1,0 +1,98 @@
+---
+title: "AP Research Calendar"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    navbar:
+      - {title: "AP Research Main Website", href: "https://apscholar.github.io/ap-research" }
+      - {title: "Syllabus", href: "https://apscholar.github.io/ap-research-syllabus" }
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+Column {data-width=550}
+-----------------------------------------------------------------------
+
+### 2019-2020 Calendar
+
+```{r}
+library(tidyverse)
+library(lubridate)
+library(openair)
+
+sch <- tibble(date= as.Date(c("2019-08-15","2019-09-15", "2019-10-15")),
+                  val = c(1, 1, 2),
+              item = c("Inquiry Proposal Form", "Research Proposal", "Prelim. Presentation"))
+
+sch <- sch %>% 
+  add_row(date = "2019-11-01", val = 1, item = "Annotated Bibliography") %>%
+  add_row(date = "2019-11-30", val = 3, item = "Submit final inquiry proposal form") %>%
+  add_row(date = "2019-12-15", val = 2, item = "Presentation on lit. review") %>%
+  add_row(date = "2020-01-10", val = 2, item = "Presentation on design/methods") %>%
+  add_row(date = "2020-02-20", val = 1, item = "Paper draft 1") %>%
+  add_row(date = "2020-03-15", val = 1, item = "Paper draft 2") %>%
+  add_row(date = "2020-03-30", val = 1, item = "Final draft") %>%
+  add_row(date = "2020-04-01", val = 3, item = "Final presentations/oral defense begin") %>%
+  add_row(date = "2020-04-15", val = 3, item = "Final presentations/oral defense end") %>%
+  add_row(date = "2020-04-30", val = 3, item = "Final submission of scores")
+
+sch <- sch %>% add_column(month = as.factor(month(sch$date)), year = as.factor(year(sch$date)))
+
+calendarPlot(sch, pollutant = "val", year =c(2019,2020), annotate = "date", breaks = c(0,1,2,3), labels = c("Checkpoints","Practice Talks","Major Deadlines"), w.shift = 1,
+             cols = c("lightblue","gold","lightcoral"))
+```
+
+Column {data-width=450, .tabset}
+-----------------------------------------------------------------------
+
+<!-- Row {data-height=600} -->
+<!-- ----------------------------------------------------------------------- -->
+
+### All Deadlines
+
+```{r}
+library(DT)
+sch2 <- rename(sch, Date = date, Year = year, Month = month, Item = item, Type = val)
+sch2 <- sch2[,c("Date","Item","Type","Month","Year")]
+sch2$Type <- as.factor(sch2$Type)
+# sch2 <- sch[,c("Date","Year","Month","Item")]
+datatable(sch2, filter = 'top', options = list(
+  pageLength = 15, autoWidth = TRUE, scrollX = TRUE,
+  columnDefs = list(list(width='250px', targets=2),
+                    list(width='5px', targets=c(3,4,5))) )) %>%
+  formatStyle("Type", 
+              backgroundColor = styleEqual(c(1,2,3), c("lightblue","gold","lightcoral")))
+```
+
+> Filter by Type (1 = Checkpoints, 2 = Practice Talks, 3 = Major Deadlines)
+
+### `r months(Sys.Date())` Deadlines
+
+```{r}
+datatable(sch2[sch2$Month==month(Sys.Date()),], filter = 'top', options = list(
+  pageLength = 15, autoWidth = TRUE, scrollX = TRUE,
+  columnDefs = list(list(width='250px', targets=2),
+                    list(width='5px', targets=c(3,4,5))) )) %>%
+  formatStyle("Type", 
+              backgroundColor = styleEqual(c(1,2,3), c("lightblue","gold","lightcoral")))
+```
+
+<!-- Row {data-height=400} -->
+<!-- ----------------------------------------------------------------------- -->
+
+### Major Deadlines
+
+
+```{r}
+library(DT)
+
+datatable(sch2[sch2$Type=="3",], filter = 'top', options = list(
+  pageLength = 15, autoWidth = TRUE, scrollX = TRUE,
+  columnDefs = list(list(width='250px', targets=2),
+                    list(width='5px', targets=c(3,4,5))) )) %>%
+  formatStyle("Type", 
+              backgroundColor = styleEqual(c(1,2,3), c("lightblue","gold","lightcoral")))
+```
