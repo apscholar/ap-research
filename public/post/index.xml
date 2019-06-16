@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on AP Research</title>
-    <link>https://apscholar.github.io/ap-research/post/</link>
+    <link>/post/</link>
     <description>Recent content in Posts on AP Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 11 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://apscholar.github.io/ap-research/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Summer Preparation</title>
-      <link>https://apscholar.github.io/ap-research/2019/06/11/summer-preparation/</link>
+      <link>/2019/06/11/summer-preparation/</link>
       <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://apscholar.github.io/ap-research/2019/06/11/summer-preparation/</guid>
+      <guid>/2019/06/11/summer-preparation/</guid>
       <description>Tasks:
  Look over some AP Research sample papers. Consider research ideas and questions that you would like to explore in your topic of interest. Use the inquiry proposal form to guide your initial research process. This form can also be found on page 55 of the AP Research Course Description. After completing the inquiry proposal form, please e-mail it to your teacher for approval.  </description>
     </item>

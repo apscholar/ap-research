@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Presentations on AP Research</title>
-    <link>https://apscholar.github.io/ap-research/tags/presentations/</link>
+    <link>/tags/presentations/</link>
     <description>Recent content in Presentations on AP Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 13 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://apscholar.github.io/ap-research/tags/presentations/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/presentations/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Slide Templates</title>
-      <link>https://apscholar.github.io/ap-research/project/internal-project/</link>
+      <link>/project/internal-project/</link>
       <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://apscholar.github.io/ap-research/project/internal-project/</guid>
+      <guid>/project/internal-project/</guid>
       <description>Various formats of presentation slides</description>
     </item>
     

@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Class Docs on AP Research</title>
-    <link>https://apscholar.github.io/ap-research/tags/class-docs/</link>
+    <link>/tags/class-docs/</link>
     <description>Recent content in Class Docs on AP Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 11 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://apscholar.github.io/ap-research/tags/class-docs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/class-docs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Inquiry Proposal Form</title>
-      <link>https://apscholar.github.io/ap-research/publication/inquiry/</link>
+      <link>/publication/inquiry/</link>
       <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://apscholar.github.io/ap-research/publication/inquiry/</guid>
+      <guid>/publication/inquiry/</guid>
       <description>template for inquiry proposal form</description>
     </item>
     
     <item>
       <title>Research Proposal Guidelines</title>
-      <link>https://apscholar.github.io/ap-research/publication/proposal/</link>
+      <link>/publication/proposal/</link>
       <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://apscholar.github.io/ap-research/publication/proposal/</guid>
+      <guid>/publication/proposal/</guid>
       <description>research proposal guidelines and template</description>
     </item>
     
