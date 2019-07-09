@@ -1,12 +1,12 @@
 ---
-title: "AP Research Calendar"
+title: "AP^&reg;^ Research Calendar"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
     vertical_layout: fill
     navbar:
-      - {title: "AP Research Main Website", href: "https://apscholar.github.io/ap-research" }
-      - {title: "Syllabus", href: "https://apscholar.github.io/ap-research-syllabus" }
+      - {title: "AP<sup>&reg;</sup> Research Main Website", href: "https://apresearch.netlify.com" }
+      - {title: "Syllabus", href: "https://apresearch.netlify.com/syllabus/" }
 ---
 
 ```{r setup, include=FALSE}
@@ -44,6 +44,8 @@ sch <- sch %>% add_column(month = as.factor(month(sch$date)), year = as.factor(y
 calendarPlot(sch, pollutant = "val", year =c(2019,2020), annotate = "date", breaks = c(0,1,2,3), labels = c("Checkpoints","Practice Talks","Major Deadlines"), w.shift = 1,
              cols = c("lightblue","gold","lightcoral"))
 ```
+
+> \*AP is a registered trademark of the College Board, which was not involved in the production of this webpage. The dates in this calendar apply only to Ms. Sun and Mr. Li's research classes.
 
 Column {data-width=450, .tabset}
 -----------------------------------------------------------------------

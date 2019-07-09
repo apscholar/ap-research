@@ -16,7 +16,7 @@ height = ""
 # Slides.
 # Duplicate an `[[item]]` block to add more slides.
 [[item]]
-  title = "Welcome to AP Research"
+  title = "Welcome to AP<sup>&reg;</sup> Research"
   content = "2019--2020"
   align = "center"  # Choose `center`, `left`, or `right`.
 
@@ -36,7 +36,7 @@ height = ""
 
 [[item]]
   title = "College Board"
-  content = "AP Research Website"
+  content = "AP<sup>&reg;</sup> Research Website"
   align = "left"
 
   overlay_color = "#555"  # An HTML color value.
@@ -49,7 +49,7 @@ height = ""
   cta_icon = "graduation-cap"
   
 [[item]]
-  title = "AP Digital Portfolio"
+  title = "AP<sup>&reg;</sup> Digital Portfolio"
   content = "Due April 30, 2020 at 11:59 PM ET"
   align = "right"
 
