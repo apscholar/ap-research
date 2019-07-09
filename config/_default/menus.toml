@@ -48,6 +48,11 @@
   weight = 55
   
 [[main]]
+  name = "Submissions"
+  url = "submissions/"
+  weight = 55
+  
+[[main]]
   name = "Office Hours"
   url = "#contact"
   weight = 60
