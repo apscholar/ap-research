@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Data Programming | AP® Research Handbook</title>
+  <meta name="description" content="This notebook is a compilation of resources, research methods, and case study materials for AP Research.">
+  <meta name="generator" content="bookdown  and GitBook 2.6.7">
+
+  <meta property="og:title" content="Data Programming | AP® Research Handbook" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This notebook is a compilation of resources, research methods, and case study materials for AP Research." />
+  <meta name="github-repo" content="apscholar/ap-research-handbook" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Data Programming | AP® Research Handbook" />
+  
+  <meta name="twitter:description" content="This notebook is a compilation of resources, research methods, and case study materials for AP Research." />
+  
+
+<meta name="author" content="">
+
+
+<meta name="date" content="2019-07-09">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="references.html">
+<link rel="next" href="literate-programming.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(title);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="https://scholar.netlify.com/research">AP<sup>&reg;</sup> Research</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Research Philosophy &amp; Ethics</a></li>
+<li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> Research Question</a></li>
+<li class="chapter" data-level="2" data-path="literature-review.html"><a href="literature-review.html"><i class="fa fa-check"></i><b>2</b> Literature Review</a></li>
+<li class="chapter" data-level="3" data-path="research-concepts.html"><a href="research-concepts.html"><i class="fa fa-check"></i><b>3</b> Research Concepts</a><ul>
+<li class="chapter" data-level="3.1" data-path="research-concepts.html"><a href="research-concepts.html#reliability-validity"><i class="fa fa-check"></i><b>3.1</b> Reliability &amp; Validity</a></li>
+<li class="chapter" data-level="3.2" data-path="research-concepts.html"><a href="research-concepts.html#accuracy-vs.-precision"><i class="fa fa-check"></i><b>3.2</b> Accuracy vs. Precision</a></li>
+<li class="chapter" data-level="3.3" data-path="research-concepts.html"><a href="research-concepts.html#bias-vs.-variance-tradeoff"><i class="fa fa-check"></i><b>3.3</b> Bias vs. Variance Tradeoff</a></li>
+<li class="chapter" data-level="3.4" data-path="research-concepts.html"><a href="research-concepts.html#curse-of-dimensionality"><i class="fa fa-check"></i><b>3.4</b> Curse of Dimensionality</a></li>
+<li class="chapter" data-level="3.5" data-path="research-concepts.html"><a href="research-concepts.html#correlation-vs.-causation"><i class="fa fa-check"></i><b>3.5</b> Correlation vs. Causation</a></li>
+<li class="chapter" data-level="3.6" data-path="research-concepts.html"><a href="research-concepts.html#action"><i class="fa fa-check"></i><b>3.6</b> Action</a></li>
+<li class="chapter" data-level="3.7" data-path="research-concepts.html"><a href="research-concepts.html#case-study"><i class="fa fa-check"></i><b>3.7</b> Case Study</a></li>
+<li class="chapter" data-level="3.8" data-path="research-concepts.html"><a href="research-concepts.html#case-control-study"><i class="fa fa-check"></i><b>3.8</b> Case-Control Study</a></li>
+<li class="chapter" data-level="3.9" data-path="research-concepts.html"><a href="research-concepts.html#causal"><i class="fa fa-check"></i><b>3.9</b> Causal</a></li>
+<li class="chapter" data-level="3.10" data-path="research-concepts.html"><a href="research-concepts.html#cohort"><i class="fa fa-check"></i><b>3.10</b> Cohort</a></li>
+<li class="chapter" data-level="3.11" data-path="research-concepts.html"><a href="research-concepts.html#cross-sectional"><i class="fa fa-check"></i><b>3.11</b> Cross Sectional</a></li>
+<li class="chapter" data-level="3.12" data-path="research-concepts.html"><a href="research-concepts.html#descriptive"><i class="fa fa-check"></i><b>3.12</b> Descriptive</a></li>
+<li class="chapter" data-level="3.13" data-path="research-concepts.html"><a href="research-concepts.html#experimental"><i class="fa fa-check"></i><b>3.13</b> Experimental</a></li>
+<li class="chapter" data-level="3.14" data-path="research-concepts.html"><a href="research-concepts.html#exploratory"><i class="fa fa-check"></i><b>3.14</b> Exploratory</a></li>
+<li class="chapter" data-level="3.15" data-path="research-concepts.html"><a href="research-concepts.html#historical"><i class="fa fa-check"></i><b>3.15</b> Historical</a></li>
+<li class="chapter" data-level="3.16" data-path="research-concepts.html"><a href="research-concepts.html#longitudinal"><i class="fa fa-check"></i><b>3.16</b> Longitudinal</a></li>
+<li class="chapter" data-level="3.17" data-path="research-concepts.html"><a href="research-concepts.html#meta-analysis"><i class="fa fa-check"></i><b>3.17</b> Meta-Analysis</a></li>
+<li class="chapter" data-level="3.18" data-path="research-concepts.html"><a href="research-concepts.html#mixed-methods"><i class="fa fa-check"></i><b>3.18</b> Mixed Methods</a></li>
+<li class="chapter" data-level="3.19" data-path="research-concepts.html"><a href="research-concepts.html#observational"><i class="fa fa-check"></i><b>3.19</b> Observational</a></li>
+<li class="chapter" data-level="3.20" data-path="research-concepts.html"><a href="research-concepts.html#philosophical"><i class="fa fa-check"></i><b>3.20</b> Philosophical</a></li>
+<li class="chapter" data-level="3.21" data-path="research-concepts.html"><a href="research-concepts.html#sequential"><i class="fa fa-check"></i><b>3.21</b> Sequential</a></li>
+<li class="chapter" data-level="3.22" data-path="research-concepts.html"><a href="research-concepts.html#systematic-review"><i class="fa fa-check"></i><b>3.22</b> Systematic Review</a></li>
+<li class="chapter" data-level="3.23" data-path="research-concepts.html"><a href="research-concepts.html#quasi-experimental"><i class="fa fa-check"></i><b>3.23</b> Quasi-experimental</a></li>
+<li class="chapter" data-level="3.24" data-path="research-concepts.html"><a href="research-concepts.html#case-study-1"><i class="fa fa-check"></i><b>3.24</b> Case Study</a></li>
+<li class="chapter" data-level="3.25" data-path="research-concepts.html"><a href="research-concepts.html#narrative"><i class="fa fa-check"></i><b>3.25</b> Narrative</a></li>
+<li class="chapter" data-level="3.26" data-path="research-concepts.html"><a href="research-concepts.html#phenomenological"><i class="fa fa-check"></i><b>3.26</b> Phenomenological</a></li>
+<li class="chapter" data-level="3.27" data-path="research-concepts.html"><a href="research-concepts.html#ethnography"><i class="fa fa-check"></i><b>3.27</b> Ethnography</a></li>
+<li class="chapter" data-level="3.28" data-path="research-concepts.html"><a href="research-concepts.html#grounded-theory"><i class="fa fa-check"></i><b>3.28</b> Grounded Theory</a></li>
+<li class="chapter" data-level="" data-path="research-concepts.html"><a href="research-concepts.html#causal-inference"><i class="fa fa-check"></i>Causal Inference</a><ul>
+<li class="chapter" data-level="3.28.1" data-path="research-concepts.html"><a href="research-concepts.html#experiments"><i class="fa fa-check"></i><b>3.28.1</b> Experiments</a></li>
+<li class="chapter" data-level="3.28.2" data-path="research-concepts.html"><a href="research-concepts.html#regression"><i class="fa fa-check"></i><b>3.28.2</b> Regression</a></li>
+<li class="chapter" data-level="3.28.3" data-path="research-concepts.html"><a href="research-concepts.html#matching-methods"><i class="fa fa-check"></i><b>3.28.3</b> Matching Methods</a></li>
+<li class="chapter" data-level="3.28.4" data-path="research-concepts.html"><a href="research-concepts.html#instrumental-variables"><i class="fa fa-check"></i><b>3.28.4</b> Instrumental Variables</a></li>
+</ul></li>
+<li class="chapter" data-level="3.29" data-path="research-concepts.html"><a href="research-concepts.html#stat"><i class="fa fa-check"></i><b>3.29</b> Statistical Tests</a><ul>
+<li class="chapter" data-level="3.29.1" data-path="research-concepts.html"><a href="research-concepts.html#sample-t-test"><i class="fa fa-check"></i><b>3.29.1</b> 1-sample t-test</a></li>
+<li class="chapter" data-level="3.29.2" data-path="research-concepts.html"><a href="research-concepts.html#chi-squared-test-for-variance"><i class="fa fa-check"></i><b>3.29.2</b> chi-squared test for variance</a></li>
+<li class="chapter" data-level="3.29.3" data-path="research-concepts.html"><a href="research-concepts.html#z-test-for-proportions"><i class="fa fa-check"></i><b>3.29.3</b> z test for proportions</a></li>
+<li class="chapter" data-level="3.29.4" data-path="research-concepts.html"><a href="research-concepts.html#t-test-for-2-independent-samples"><i class="fa fa-check"></i><b>3.29.4</b> t-test for 2 independent samples</a></li>
+<li class="chapter" data-level="3.29.5" data-path="research-concepts.html"><a href="research-concepts.html#paired-t-test"><i class="fa fa-check"></i><b>3.29.5</b> paired t-test</a></li>
+<li class="chapter" data-level="3.29.6" data-path="research-concepts.html"><a href="research-concepts.html#chi-squared-test-for-proportions"><i class="fa fa-check"></i><b>3.29.6</b> chi-squared test for proportions</a></li>
+<li class="chapter" data-level="3.29.7" data-path="research-concepts.html"><a href="research-concepts.html#chi-squared-test-for-independence"><i class="fa fa-check"></i><b>3.29.7</b> chi-squared test for independence</a></li>
+<li class="chapter" data-level="3.29.8" data-path="research-concepts.html"><a href="research-concepts.html#anova"><i class="fa fa-check"></i><b>3.29.8</b> ANOVA</a></li>
+</ul></li>
+<li class="chapter" data-level="3.30" data-path="research-concepts.html"><a href="research-concepts.html#regression-1"><i class="fa fa-check"></i><b>3.30</b> Regression</a><ul>
+<li class="chapter" data-level="3.30.1" data-path="research-concepts.html"><a href="research-concepts.html#simple-linear-regression"><i class="fa fa-check"></i><b>3.30.1</b> Simple Linear Regression</a></li>
+<li class="chapter" data-level="3.30.2" data-path="research-concepts.html"><a href="research-concepts.html#multiple-linear-regression"><i class="fa fa-check"></i><b>3.30.2</b> Multiple Linear Regression</a></li>
+<li class="chapter" data-level="3.30.3" data-path="research-concepts.html"><a href="research-concepts.html#logistic-regression"><i class="fa fa-check"></i><b>3.30.3</b> Logistic Regression</a></li>
+<li class="chapter" data-level="3.30.4" data-path="research-concepts.html"><a href="research-concepts.html#mixed-effects-models"><i class="fa fa-check"></i><b>3.30.4</b> Mixed Effects Models</a></li>
+</ul></li>
+<li class="chapter" data-level="3.31" data-path="research-concepts.html"><a href="research-concepts.html#numerical-methods"><i class="fa fa-check"></i><b>3.31</b> Numerical Methods</a><ul>
+<li class="chapter" data-level="3.31.1" data-path="research-concepts.html"><a href="research-concepts.html#root-finding-algorithms"><i class="fa fa-check"></i><b>3.31.1</b> Root-Finding Algorithms</a></li>
+<li class="chapter" data-level="3.31.2" data-path="research-concepts.html"><a href="research-concepts.html#numerical-solutions-to-differential-equations"><i class="fa fa-check"></i><b>3.31.2</b> Numerical Solutions to Differential Equations</a></li>
+</ul></li>
+<li class="chapter" data-level="3.32" data-path="research-concepts.html"><a href="research-concepts.html#text-analysis"><i class="fa fa-check"></i><b>3.32</b> Text Analysis</a></li>
+<li class="chapter" data-level="3.33" data-path="research-concepts.html"><a href="research-concepts.html#network-analysis"><i class="fa fa-check"></i><b>3.33</b> Network Analysis</a></li>
+<li class="chapter" data-level="3.34" data-path="research-concepts.html"><a href="research-concepts.html#geospatial-analysis"><i class="fa fa-check"></i><b>3.34</b> Geospatial Analysis</a></li>
+<li class="chapter" data-level="" data-path="research-concepts.html"><a href="research-concepts.html#biology-biostatistics"><i class="fa fa-check"></i>Biology &amp; Biostatistics</a></li>
+<li class="chapter" data-level="" data-path="research-concepts.html"><a href="research-concepts.html#economics-econometrics"><i class="fa fa-check"></i>Economics &amp; Econometrics</a></li>
+<li class="chapter" data-level="" data-path="research-concepts.html"><a href="research-concepts.html#psychology"><i class="fa fa-check"></i>Psychology</a></li>
+<li class="chapter" data-level="" data-path="research-concepts.html"><a href="research-concepts.html#public-health-epidemiology"><i class="fa fa-check"></i>Public Health &amp; Epidemiology</a></li>
+<li class="chapter" data-level="" data-path="research-concepts.html"><a href="research-concepts.html#social-sciences"><i class="fa fa-check"></i>Social Sciences</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="data.html"><a href="data.html"><i class="fa fa-check"></i><b>4</b> Data</a><ul>
+<li class="chapter" data-level="4.1" data-path="data.html"><a href="data.html#data-sources-by-discipline"><i class="fa fa-check"></i><b>4.1</b> Data Sources by Discipline</a><ul>
+<li class="chapter" data-level="4.1.1" data-path="data.html"><a href="data.html#demography-and-official-statistics"><i class="fa fa-check"></i><b>4.1.1</b> Demography and Official Statistics</a></li>
+<li class="chapter" data-level="4.1.2" data-path="data.html"><a href="data.html#economics"><i class="fa fa-check"></i><b>4.1.2</b> Economics</a></li>
+<li class="chapter" data-level="4.1.3" data-path="data.html"><a href="data.html#education"><i class="fa fa-check"></i><b>4.1.3</b> Education</a></li>
+<li class="chapter" data-level="4.1.4" data-path="data.html"><a href="data.html#law"><i class="fa fa-check"></i><b>4.1.4</b> Law</a></li>
+<li class="chapter" data-level="4.1.5" data-path="data.html"><a href="data.html#social-sciences-1"><i class="fa fa-check"></i><b>4.1.5</b> Social Sciences</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="data.html"><a href="data.html#data-documentation"><i class="fa fa-check"></i><b>4.2</b> Data Documentation</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="analysis.html"><a href="analysis.html"><i class="fa fa-check"></i><b>5</b> Analysis</a><ul>
+<li class="chapter" data-level="5.1" data-path="analysis.html"><a href="analysis.html#logical-fallacies"><i class="fa fa-check"></i><b>5.1</b> Logical Fallacies</a></li>
+<li class="chapter" data-level="5.2" data-path="analysis.html"><a href="analysis.html#biases"><i class="fa fa-check"></i><b>5.2</b> Biases</a></li>
+<li class="chapter" data-level="5.3" data-path="analysis.html"><a href="analysis.html#model-selection"><i class="fa fa-check"></i><b>5.3</b> Model Selection</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="chapter" data-level="" data-path="data-programming.html"><a href="data-programming.html"><i class="fa fa-check"></i>Data Programming</a><ul>
+<li class="chapter" data-level="5.4" data-path="data-programming.html"><a href="data-programming.html#r"><i class="fa fa-check"></i><b>5.4</b> R</a></li>
+<li class="chapter" data-level="5.5" data-path="data-programming.html"><a href="data-programming.html#cleaning-and-reshaping-data"><i class="fa fa-check"></i><b>5.5</b> Cleaning and Reshaping Data</a></li>
+<li class="chapter" data-level="5.6" data-path="data-programming.html"><a href="data-programming.html#regular-expressions"><i class="fa fa-check"></i><b>5.6</b> Regular Expressions</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="literate-programming.html"><a href="literate-programming.html"><i class="fa fa-check"></i>Literate Programming</a><ul>
+<li class="chapter" data-level="5.7" data-path="literate-programming.html"><a href="literate-programming.html#latex"><i class="fa fa-check"></i><b>5.7</b> LaTeX</a></li>
+<li class="chapter" data-level="5.8" data-path="literate-programming.html"><a href="literate-programming.html#beamer"><i class="fa fa-check"></i><b>5.8</b> Beamer</a></li>
+<li class="chapter" data-level="5.9" data-path="literate-programming.html"><a href="literate-programming.html#knitr-r-latex"><i class="fa fa-check"></i><b>5.9</b> knitr (R + LaTeX)</a></li>
+<li class="chapter" data-level="5.10" data-path="literate-programming.html"><a href="literate-programming.html#r-markdown"><i class="fa fa-check"></i><b>5.10</b> R Markdown</a></li>
+<li class="chapter" data-level="5.11" data-path="literate-programming.html"><a href="literate-programming.html#r-bookdown"><i class="fa fa-check"></i><b>5.11</b> R Bookdown</a></li>
+<li class="chapter" data-level="5.12" data-path="literate-programming.html"><a href="literate-programming.html#rmd-to-ms-word"><i class="fa fa-check"></i><b>5.12</b> Rmd to MS Word</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="version-control.html"><a href="version-control.html"><i class="fa fa-check"></i>Version Control</a><ul>
+<li class="chapter" data-level="5.13" data-path="version-control.html"><a href="version-control.html#github"><i class="fa fa-check"></i><b>5.13</b> Github</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">AP<sup>®</sup> Research Handbook</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="data-programming" class="section level1 unnumbered">
+<h1>Data Programming</h1>
+<div id="r" class="section level2">
+<h2><span class="header-section-number">5.4</span> R</h2>
+<ul>
+<li><p><a href="https://www.r-project.org/">R</a></p>
+<ul>
+<li>To download R, choose a <a href="https://cran.r-project.org/mirrors.html">CRAN mirror</a> closest to your geographic location.</li>
+<li>In order to build R packages, you should also download the latest recommended version of <a href="https://cran.r-project.org/bin/windows/Rtools/">Rtools</a>. Currently, the latest recommended version is <code>Rtoools35.exe</code>.</li>
+<li>During the installation of Rtools, you may need to add in <code>"C:\Rtools\mingw_64\bin;"</code> to the path.</li>
+</ul></li>
+<li><p><a href="https://www.rstudio.com/products/rstudio/download/#download">R Studio</a></p>
+<ul>
+<li>R Studio is an integrated development environment (IDE) for R. After downloading R Studio, you should be able to type the following command at the console to download some common R packages for data analysis and visualization.</li>
+</ul></li>
+</ul>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">install.packages</span>(<span class="kw">c</span>(<span class="st">&quot;dplyr&quot;</span>, <span class="st">&quot;tidyr&quot;</span>, <span class="st">&quot;ggplot2&quot;</span>, <span class="st">&quot;esquisse&quot;</span>, <span class="st">&quot;stats&quot;</span>, <span class="st">&quot;xtable&quot;</span>))</code></pre>
+<ul>
+<li><a href="https://rseek.org/">R Search Engine</a></li>
+</ul>
+</div>
+<div id="cleaning-and-reshaping-data" class="section level2">
+<h2><span class="header-section-number">5.5</span> Cleaning and Reshaping Data</h2>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(reshape2)
+<span class="kw">library</span>(tidyr)
+<span class="kw">library</span>(xtable)
+<span class="kw">library</span>(stringr)
+<span class="kw">library</span>(knitr)
+<span class="kw">options</span>(<span class="dt">kableExtra.latex.load_packages =</span> <span class="ot">FALSE</span>)
+<span class="kw">library</span>(kableExtra)
+<span class="kw">library</span>(pander)
+
+
+<span class="co">#original data is organized by id/trial (two locations per entry)</span>
+game &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span class="dt">id =</span> <span class="kw">c</span>(<span class="kw">rep</span>(<span class="st">&quot;X&quot;</span>,<span class="dv">3</span>), <span class="kw">rep</span>(<span class="st">&quot;Y&quot;</span>,<span class="dv">3</span>), <span class="kw">rep</span>(<span class="st">&quot;Z&quot;</span>,<span class="dv">3</span>)),
+           <span class="dt">trial =</span> <span class="kw">rep</span>(<span class="kw">c</span>(<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>), <span class="dv">3</span>),
+           <span class="dt">location_A =</span> <span class="kw">round</span>(<span class="kw">rnorm</span>(<span class="dv">9</span>, <span class="dt">mean =</span> <span class="dv">0</span>, <span class="dt">sd =</span> <span class="dv">1</span>), <span class="dv">1</span>),
+           <span class="dt">location_B =</span> <span class="kw">round</span>(<span class="kw">rnorm</span>(<span class="dv">9</span>, <span class="dt">mean =</span> <span class="dv">0</span>, <span class="dt">sd =</span> <span class="dv">1</span>), <span class="dv">1</span>))
+
+<span class="co"># reshape data from wide to long (each entry is unique by id/trial/location)</span>
+game_long &lt;-<span class="st"> </span><span class="kw">melt</span>(game, <span class="dt">id =</span> <span class="kw">c</span>(<span class="st">&quot;id&quot;</span>,<span class="st">&quot;trial&quot;</span>), <span class="dt">value.name =</span> <span class="st">&quot;score&quot;</span>)
+game_long<span class="op">$</span>variable &lt;-<span class="st"> </span><span class="kw">str_sub</span>(game_long<span class="op">$</span>variable,<span class="op">-</span><span class="dv">1</span>,<span class="op">-</span><span class="dv">1</span>)
+<span class="kw">colnames</span>(game_long)[<span class="dv">3</span>] &lt;-<span class="st"> &quot;location&quot;</span>
+
+<span class="co"># reshape data back to wide (same as original data)</span>
+game_wide &lt;-<span class="st"> </span><span class="kw">dcast</span>(game_long, id <span class="op">+</span><span class="st"> </span>trial <span class="op">~</span><span class="st"> </span>location, <span class="dt">value.var =</span> <span class="st">&quot;score&quot;</span>)
+<span class="co"># reshape data into even wider form (one entry per id with 6 value columns: 2 locations X 3 trials)</span>
+game_wider &lt;-<span class="st"> </span><span class="kw">dcast</span>(game_long, id <span class="op">~</span><span class="st"> </span>location <span class="op">+</span><span class="st"> </span>trial, <span class="dt">value.var =</span> <span class="st">&quot;score&quot;</span>)
+
+<span class="co"># using tidyr and dplyr to reshape data</span>
+game_long2 &lt;-<span class="st"> </span>game <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">gather</span>(label, score, location_A, location_B) <span class="op">%&gt;%</span>
+<span class="st">    </span><span class="kw">separate</span>(label, <span class="kw">c</span>(<span class="st">&quot;label_p1&quot;</span>,<span class="st">&quot;location&quot;</span>), <span class="dt">sep =</span> <span class="st">&quot;_&quot;</span>) <span class="op">%&gt;%</span>
+<span class="st">    </span>dplyr<span class="op">::</span><span class="kw">select</span>(<span class="op">-</span>label_p1)
+
+game_wide2 &lt;-<span class="st"> </span>game_long2 <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">spread</span>(location, <span class="dt">value =</span> score)
+
+<span class="co">#unite() function creates the location X trial combinations first in long format # then apply the spread() function to reshape into wide format</span>
+<span class="co">#just like in game_wide, each entry in game_wide2 is unique by id</span>
+game_wider2 &lt;-<span class="st"> </span>game_long2 <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">unite</span>(location_trial, location, trial) <span class="op">%&gt;%</span>
+<span class="st">    </span><span class="kw">spread</span>(location_trial, <span class="dt">value =</span> score)
+
+<span class="co">#xtable method</span>
+<span class="co">#print(xtable(game, caption = &quot;Wide Data Listed by Person/Trial (Scores by Location)&quot;), type=&quot;html&quot;)</span>
+
+<span class="co">#kable method</span>
+<span class="co">#kable(game, caption = &quot;Wide Data Listed by Person/Trial (Scores by Location)&quot;, booktabs = TRUE) %&gt;%</span>
+<span class="co">#    kable_styling(latex_options = c(&quot;hold_position&quot;))</span>
+
+<span class="co">#pander method (most flexible)</span>
+<span class="kw">pandoc.table</span>(game, <span class="dt">caption =</span> <span class="st">&quot;(</span><span class="ch">\\</span><span class="st">#tab:wide) Wide Data Listed by Person/Trial (Scores by Location)&quot;</span>)</code></pre>
+<table style="width:54%;">
+<caption><span id="tab:wide">Table 5.1: </span> Wide Data Listed by Person/Trial (Scores by Location)</caption>
+<colgroup>
+<col width="6%" />
+<col width="11%" />
+<col width="18%" />
+<col width="18%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">id</th>
+<th align="center">trial</th>
+<th align="center">location_A</th>
+<th align="center">location_B</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">X</td>
+<td align="center">1</td>
+<td align="center">-0.4</td>
+<td align="center">1</td>
+</tr>
+<tr class="even">
+<td align="center">X</td>
+<td align="center">2</td>
+<td align="center">1.3</td>
+<td align="center">-0.3</td>
+</tr>
+<tr class="odd">
+<td align="center">X</td>
+<td align="center">3</td>
+<td align="center">0.9</td>
+<td align="center">0.4</td>
+</tr>
+<tr class="even">
+<td align="center">Y</td>
+<td align="center">1</td>
+<td align="center">-1.2</td>
+<td align="center">-1.4</td>
+</tr>
+<tr class="odd">
+<td align="center">Y</td>
+<td align="center">2</td>
+<td align="center">-1.7</td>
+<td align="center">2.1</td>
+</tr>
+<tr class="even">
+<td align="center">Y</td>
+<td align="center">3</td>
+<td align="center">-2.1</td>
+<td align="center">-0.6</td>
+</tr>
+<tr class="odd">
+<td align="center">Z</td>
+<td align="center">1</td>
+<td align="center">-0.3</td>
+<td align="center">0.3</td>
+</tr>
+<tr class="even">
+<td align="center">Z</td>
+<td align="center">2</td>
+<td align="center">0.4</td>
+<td align="center">-0.6</td>
+</tr>
+<tr class="odd">
+<td align="center">Z</td>
+<td align="center">3</td>
+<td align="center">-0.6</td>
+<td align="center">0.7</td>
+</tr>
+</tbody>
+</table>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">pandoc.table</span>(game_wider, <span class="dt">caption =</span> <span class="st">&quot;(</span><span class="ch">\\</span><span class="st">#tab:wider) Wider Data Listed by ID (Scores by Location/Trial)&quot;</span>)</code></pre>
+<table style="width:65%;">
+<caption><span id="tab:wider">Table 5.2: </span> Wider Data Listed by ID (Scores by Location/Trial)</caption>
+<colgroup>
+<col width="6%" />
+<col width="9%" />
+<col width="9%" />
+<col width="9%" />
+<col width="9%" />
+<col width="9%" />
+<col width="9%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">id</th>
+<th align="center">A_1</th>
+<th align="center">A_2</th>
+<th align="center">A_3</th>
+<th align="center">B_1</th>
+<th align="center">B_2</th>
+<th align="center">B_3</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">X</td>
+<td align="center">-0.4</td>
+<td align="center">1.3</td>
+<td align="center">0.9</td>
+<td align="center">1</td>
+<td align="center">-0.3</td>
+<td align="center">0.4</td>
+</tr>
+<tr class="even">
+<td align="center">Y</td>
+<td align="center">-1.2</td>
+<td align="center">-1.7</td>
+<td align="center">-2.1</td>
+<td align="center">-1.4</td>
+<td align="center">2.1</td>
+<td align="center">-0.6</td>
+</tr>
+<tr class="odd">
+<td align="center">Z</td>
+<td align="center">-0.3</td>
+<td align="center">0.4</td>
+<td align="center">-0.6</td>
+<td align="center">0.3</td>
+<td align="center">-0.6</td>
+<td align="center">0.7</td>
+</tr>
+</tbody>
+</table>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">pandoc.table</span>(game_long, <span class="dt">caption =</span> <span class="st">&quot;(</span><span class="ch">\\</span><span class="st">#tab:long) Long Data&quot;</span>)</code></pre>
+<table style="width:44%;">
+<caption><span id="tab:long">Table 5.3: </span> Long Data</caption>
+<colgroup>
+<col width="6%" />
+<col width="11%" />
+<col width="15%" />
+<col width="11%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">id</th>
+<th align="center">trial</th>
+<th align="center">location</th>
+<th align="center">score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">X</td>
+<td align="center">1</td>
+<td align="center">A</td>
+<td align="center">-0.4</td>
+</tr>
+<tr class="even">
+<td align="center">X</td>
+<td align="center">2</td>
+<td align="center">A</td>
+<td align="center">1.3</td>
+</tr>
+<tr class="odd">
+<td align="center">X</td>
+<td align="center">3</td>
+<td align="center">A</td>
+<td align="center">0.9</td>
+</tr>
+<tr class="even">
+<td align="center">Y</td>
+<td align="center">1</td>
+<td align="center">A</td>
+<td align="center">-1.2</td>
+</tr>
+<tr class="odd">
+<td align="center">Y</td>
+<td align="center">2</td>
+<td align="center">A</td>
+<td align="center">-1.7</td>
+</tr>
+<tr class="even">
+<td align="center">Y</td>
+<td align="center">3</td>
+<td align="center">A</td>
+<td align="center">-2.1</td>
+</tr>
+<tr class="odd">
+<td align="center">Z</td>
+<td align="center">1</td>
+<td align="center">A</td>
+<td align="center">-0.3</td>
+</tr>
+<tr class="even">
+<td align="center">Z</td>
+<td align="center">2</td>
+<td align="center">A</td>
+<td align="center">0.4</td>
+</tr>
+<tr class="odd">
+<td align="center">Z</td>
+<td align="center">3</td>
+<td align="center">A</td>
+<td align="center">-0.6</td>
+</tr>
+<tr class="even">
+<td align="center">X</td>
+<td align="center">1</td>
+<td align="center">B</td>
+<td align="center">1</td>
+</tr>
+<tr class="odd">
+<td align="center">X</td>
+<td align="center">2</td>
+<td align="center">B</td>
+<td align="center">-0.3</td>
+</tr>
+<tr class="even">
+<td align="center">X</td>
+<td align="center">3</td>
+<td align="center">B</td>
+<td align="center">0.4</td>
+</tr>
+<tr class="odd">
+<td align="center">Y</td>
+<td align="center">1</td>
+<td align="center">B</td>
+<td align="center">-1.4</td>
+</tr>
+<tr class="even">
+<td align="center">Y</td>
+<td align="center">2</td>
+<td align="center">B</td>
+<td align="center">2.1</td>
+</tr>
+<tr class="odd">
+<td align="center">Y</td>
+<td align="center">3</td>
+<td align="center">B</td>
+<td align="center">-0.6</td>
+</tr>
+<tr class="even">
+<td align="center">Z</td>
+<td align="center">1</td>
+<td align="center">B</td>
+<td align="center">0.3</td>
+</tr>
+<tr class="odd">
+<td align="center">Z</td>
+<td align="center">2</td>
+<td align="center">B</td>
+<td align="center">-0.6</td>
+</tr>
+<tr class="even">
+<td align="center">Z</td>
+<td align="center">3</td>
+<td align="center">B</td>
+<td align="center">0.7</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><a href="https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf">Data Wrangling with dplyr and tidyr</a></li>
+</ul>
+</div>
+<div id="regular-expressions" class="section level2">
+<h2><span class="header-section-number">5.6</span> Regular Expressions</h2>
+<ul>
+<li><a href="https://stringr.tidyverse.org/articles/regular-expressions.html">Regular Expressions in R</a></li>
+<li><p><a href="http://uc-r.github.io/regex">UC Business Analytics R Programming Guide: Dealing with Regular Expressions</a></p></li>
+<li><p><a href="https://www.rstudio.com/wp-content/uploads/2016/09/RegExCheatsheet.pdf">Basic Regular Expressions in R Cheat Sheet</a></p></li>
+</ul>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="references.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="literate-programming.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": null,
+"history": {
+"link": null,
+"text": null
+},
+"download": ["ap-research-handbook.pdf"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

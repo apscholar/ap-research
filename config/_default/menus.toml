@@ -44,7 +44,7 @@
 
 [[main]]
   name = "Handbook"
-  url = "http://apscholar.github.io/ap-research-handbook/"
+  url = "handbook/"
   weight = 55
   
 [[main]]
