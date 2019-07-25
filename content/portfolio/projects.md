@@ -28,11 +28,11 @@ subtitle = ""
   [[content.filter_button]]
     name = "College Board"
     tag = "College Board"
-    
+  
   [[content.filter_button]]
-    name = "Documentation"
-    tag = "Documentation"
-    
+    name = "Resources"
+    tag = "Resources"
+
   [[content.filter_button]]
     name = "Proposals"
     tag = "Proposals"
@@ -52,6 +52,10 @@ subtitle = ""
   [[content.filter_button]]
     name = "Forms"
     tag = "Forms"
+
+  [[content.filter_button]]
+    name = "Documentation"
+    tag = "Documentation"
     
   [[content.filter_button]]
     name = "Submissions"
