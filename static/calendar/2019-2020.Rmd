@@ -23,22 +23,24 @@ library(tidyverse)
 library(lubridate)
 library(openair)
 
-sch <- tibble(date= as.Date(c("2019-08-15","2019-09-15", "2019-10-15")),
-                  val = c(1, 1, 2),
-              item = c("Inquiry Proposal Form", "Research Proposal", "Prelim. Presentation"))
+sch <- tibble(date= as.Date(c("2019-09-30")),
+                  val = c(1),
+              item = c("Research Topic/Question"))
 
 sch <- sch %>% 
-  add_row(date = "2019-11-01", val = 1, item = "Annotated Bibliography") %>%
-  add_row(date = "2019-11-30", val = 3, item = "Submit final inquiry proposal form") %>%
-  add_row(date = "2019-12-15", val = 2, item = "Presentation on lit. review") %>%
-  add_row(date = "2020-01-10", val = 2, item = "Presentation on design/methods") %>%
-  add_row(date = "2020-02-20", val = 1, item = "Paper draft 1") %>%
-  add_row(date = "2020-03-15", val = 1, item = "Paper draft 2") %>%
-  add_row(date = "2020-03-30", val = 1, item = "Final draft") %>%
+  add_row(date = "2019-10-31", val = 3, item = "Inquiry Proposal Form") %>%
+  add_row(date = "2019-11-15", val = 2, item = "Poster Presentation") %>%
+  add_row(date = "2019-11-29", val = 3, item = "Research Proposal") %>%
+  add_row(date = "2019-12-20", val = 1, item = "Annotated Bibliography") %>%
+  add_row(date = "2020-01-10", val = 2, item = "Research Blueprint Poster") %>%
+  add_row(date = "2020-02-28", val = 1, item = "Paper Draft 1") %>%
+  add_row(date = "2020-03-16", val = 1, item = "Paper Draft 2") %>%
   add_row(date = "2020-04-01", val = 3, item = "Final presentations/oral defense begin") %>%
   add_row(date = "2020-04-15", val = 3, item = "Final presentations/oral defense end") %>%
-  add_row(date = "2020-04-30", val = 3, item = "Final submission of scores")
-
+  add_row(date = "2020-04-24", val = 3, item = "Final Academic Paper") %>%
+  add_row(date = "2020-04-30", val = 3, item = "Final submission of scores") %>%
+  add_row(date = "2020-05-31", val = 3, item = "Process and Reflection Portfolio (PREP)")
+  
 sch <- sch %>% add_column(month = as.factor(month(sch$date)), year = as.factor(year(sch$date)))
 
 calendarPlot(sch, pollutant = "val", year =c(2019,2020), annotate = "date", breaks = c(0,1,2,3), labels = c("Checkpoints","Practice Talks","Major Deadlines"), w.shift = 1,
