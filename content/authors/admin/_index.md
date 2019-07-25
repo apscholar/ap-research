@@ -35,7 +35,7 @@ social:
 #   link: 
 - icon: github
   icon_pack: fab
-  link: https://github.com/apscholar
+  link: https://github.com/ap-research
 superuser: true
 user_groups:
 - Researchers

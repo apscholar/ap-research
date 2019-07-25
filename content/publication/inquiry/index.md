@@ -14,8 +14,10 @@ links:
   url: 'publication/inquiry/inquiry-form.docx'
 - name: LaTeX
   url: 'publication/inquiry/inquiry-form.tex'
+# - name: Markdown
+#   url: 'publication/inquiry/inquiry-form.md'
 # projects:
-# - internal-project
+# - inquiry
 publication: 
 publication_short:
 publication_types:
