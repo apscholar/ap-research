@@ -2,102 +2,102 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on AP Research</title>
-    <link>/ap-research/authors/</link>
+    <link>/authors/</link>
     <description>Recent content in Authors on AP Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 11 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/ap-research/authors/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>AP Research</title>
-      <link>/ap-research/authors/ap-research/</link>
+      <link>/authors/ap-research/</link>
       <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/authors/ap-research/</guid>
+      <guid>/authors/ap-research/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mr. Li</title>
-      <link>/ap-research/authors/mr.-li/</link>
+      <link>/authors/mr.-li/</link>
       <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/authors/mr.-li/</guid>
+      <guid>/authors/mr.-li/</guid>
       <description></description>
     </item>
     
     <item>
       <title>College Board Sample Paper A</title>
-      <link>/ap-research/authors/college-board-sample-paper-a/</link>
+      <link>/authors/college-board-sample-paper-a/</link>
       <pubDate>Fri, 04 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/authors/college-board-sample-paper-a/</guid>
+      <guid>/authors/college-board-sample-paper-a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>College Board Sample Paper B</title>
-      <link>/ap-research/authors/college-board-sample-paper-b/</link>
+      <link>/authors/college-board-sample-paper-b/</link>
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/authors/college-board-sample-paper-b/</guid>
+      <guid>/authors/college-board-sample-paper-b/</guid>
       <description></description>
     </item>
     
     <item>
       <title>College Board Sample Paper C</title>
-      <link>/ap-research/authors/college-board-sample-paper-c/</link>
+      <link>/authors/college-board-sample-paper-c/</link>
       <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/authors/college-board-sample-paper-c/</guid>
+      <guid>/authors/college-board-sample-paper-c/</guid>
       <description></description>
     </item>
     
     <item>
       <title>College Board Sample Paper D</title>
-      <link>/ap-research/authors/college-board-sample-paper-d/</link>
+      <link>/authors/college-board-sample-paper-d/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/authors/college-board-sample-paper-d/</guid>
+      <guid>/authors/college-board-sample-paper-d/</guid>
       <description></description>
     </item>
     
     <item>
       <title>College Board Sample Paper I</title>
-      <link>/ap-research/authors/college-board-sample-paper-i/</link>
+      <link>/authors/college-board-sample-paper-i/</link>
       <pubDate>Mon, 02 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/authors/college-board-sample-paper-i/</guid>
+      <guid>/authors/college-board-sample-paper-i/</guid>
       <description></description>
     </item>
     
     <item>
       <title>College Board Sample Paper G</title>
-      <link>/ap-research/authors/college-board-sample-paper-g/</link>
+      <link>/authors/college-board-sample-paper-g/</link>
       <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/authors/college-board-sample-paper-g/</guid>
+      <guid>/authors/college-board-sample-paper-g/</guid>
       <description></description>
     </item>
     
     <item>
       <title>College Board Sample Paper K</title>
-      <link>/ap-research/authors/college-board-sample-paper-k/</link>
+      <link>/authors/college-board-sample-paper-k/</link>
       <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/authors/college-board-sample-paper-k/</guid>
+      <guid>/authors/college-board-sample-paper-k/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/ap-research/authors/admin/</link>
+      <link>/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/authors/admin/</guid>
+      <guid>/authors/admin/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.</description>
     </item>
     

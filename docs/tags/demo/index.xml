@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Demo on AP Research</title>
-    <link>/ap-research/tags/demo/</link>
+    <link>/tags/demo/</link>
     <description>Recent content in Demo on AP Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/ap-research/tags/demo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/demo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Reproducible Research</title>
-      <link>/ap-research/project/external-project/</link>
+      <link>/project/external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/project/external-project/</guid>
+      <guid>/project/external-project/</guid>
       <description>Minimal example of code, data documentation, and integration with paper.</description>
     </item>
     

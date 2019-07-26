@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AP Research Course Section on AP Research</title>
-    <link>/ap-research/course/</link>
+    <link>/course/</link>
     <description>Recent content in AP Research Course Section on AP Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/ap-research/course/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/course/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>AP Research</title>
-      <link>/ap-research/course/syllabus/</link>
+      <link>/course/syllabus/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/course/syllabus/</guid>
+      <guid>/course/syllabus/</guid>
       <description>AP Research Syllabus (PDF)
 Teacher: Mr. Li
 Office Hours: TBD
@@ -29,49 +29,49 @@ Wagner, R. Harrison (2007). \emph{War and the State: The Theory of International
     
     <item>
       <title>Unit 2</title>
-      <link>/ap-research/course/unit2a/</link>
+      <link>/course/unit2a/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/course/unit2a/</guid>
+      <guid>/course/unit2a/</guid>
       <description>Here are some more tips for getting started with Academic:
 Objectives Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus.</description>
     </item>
     
     <item>
       <title>Unit 1 (Sept. 16-27)</title>
-      <link>/ap-research/course/unit1b/</link>
+      <link>/course/unit1b/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/course/unit1b/</guid>
+      <guid>/course/unit1b/</guid>
       <description>Here are some more tips for getting started with Academic:
 Objectives Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus.</description>
     </item>
     
     <item>
       <title></title>
-      <link>/ap-research/course/unit1a/</link>
+      <link>/course/unit1a/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/course/unit1a/</guid>
+      <guid>/course/unit1a/</guid>
       <description>Week 1 Here are some more tips for getting started with Academic:
 Tip 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim.</description>
     </item>
     
     <item>
       <title>Summer Prep (July 1-19)</title>
-      <link>/ap-research/course/unit0a/</link>
+      <link>/course/unit0a/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/course/unit0a/</guid>
+      <guid>/course/unit0a/</guid>
       <description>Objectives  Start research proposal. Start literature review.  Tip 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus.</description>
     </item>
     
     <item>
       <title>Summer Prep (July 22-31)</title>
-      <link>/ap-research/course/unit0b/</link>
+      <link>/course/unit0b/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/course/unit0b/</guid>
+      <guid>/course/unit0b/</guid>
       <description>Objectives  Start research proposal. Start literature review.  Tip 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus.</description>
     </item>
     

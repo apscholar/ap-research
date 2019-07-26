@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Presentation on AP Research</title>
+    <link>/tags/presentation/</link>
+    <description>Recent content in Presentation on AP Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/presentation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Oral Defense Questions</title>
+      <link>/project/oral-defense/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/oral-defense/</guid>
+      <description>Taken from pages 52&amp;ndash;53 of the &lt;a href=&#34;https://apcentral.collegeboard.org/pdf/ap-research-course-and-exam-description.pdf?course=ap-research&#34; target=&#34;_blank&#34;&gt;AP Research Course and Exam Description&lt;/a&gt;.</description>
+    </item>
+    
+    <item>
+      <title>Presentation &amp; Oral Defense Rubric</title>
+      <link>/project/rubric-pod/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/rubric-pod/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slide Templates</title>
+      <link>/project/template-slides/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/template-slides/</guid>
+      <description>Various formats of presentation slides</description>
+    </item>
+    
+  </channel>
+</rss>

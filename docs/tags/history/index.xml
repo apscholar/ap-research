@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>History on AP Research</title>
-    <link>/ap-research/tags/history/</link>
+    <link>/tags/history/</link>
     <description>Recent content in History on AP Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 04 May 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/ap-research/tags/history/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/history/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cultivation, Resistance, &amp; Beauty: A Case Study on the Defiant Gardens of the Manzanar Internment Camp during World War II</title>
-      <link>/ap-research/publication/2018-sample-paper-a/</link>
+      <link>/publication/2018-sample-paper-a/</link>
       <pubDate>Fri, 04 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/publication/2018-sample-paper-a/</guid>
+      <guid>/publication/2018-sample-paper-a/</guid>
       <description>College Board AP Research Sample Paper A (2018)</description>
     </item>
     

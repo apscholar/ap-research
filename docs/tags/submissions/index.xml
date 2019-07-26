@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Submissions on AP Research</title>
+    <link>/tags/submissions/</link>
+    <description>Recent content in Submissions on AP Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/submissions/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Inquiry Proposal Form</title>
+      <link>/project/inquiry/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/inquiry/</guid>
+      <description>Due on October 30. Must receive teacher approval of this completed form before conducting research.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AP Research</title>
-    <link>/ap-research/</link>
+    <link>/</link>
     <description>Recent content on AP Research</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/ap-research/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>AP Research</title>
-      <link>/ap-research/course/syllabus/</link>
+      <link>/course/syllabus/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/course/syllabus/</guid>
+      <guid>/course/syllabus/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;/ap-research/ap-research/course/syllabus.pdf&#34;&gt;AP Research Syllabus (PDF)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/ap-research/course/syllabus.pdf&#34;&gt;AP Research Syllabus (PDF)&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Teacher:&lt;/strong&gt; Mr. Li&lt;br /&gt;
 &lt;strong&gt;Office Hours:&lt;/strong&gt; TBD&lt;/p&gt;
@@ -52,10 +52,10 @@ Ann Arbor, MI: The University of Michigan Press.&lt;/p&gt;
     
     <item>
       <title>Unit 2</title>
-      <link>/ap-research/course/unit2a/</link>
+      <link>/course/unit2a/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/course/unit2a/</guid>
+      <guid>/course/unit2a/</guid>
       <description>
 
 &lt;p&gt;Here are some more tips for getting started with Academic:&lt;/p&gt;
@@ -72,10 +72,10 @@ Ann Arbor, MI: The University of Michigan Press.&lt;/p&gt;
     
     <item>
       <title>Installation</title>
-      <link>/ap-research/tutorials/r/start/</link>
+      <link>/tutorials/r/start/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/tutorials/r/start/</guid>
+      <guid>/tutorials/r/start/</guid>
       <description>
 
 &lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
@@ -108,10 +108,10 @@ Ann Arbor, MI: The University of Michigan Press.&lt;/p&gt;
     
     <item>
       <title>Example Page 1</title>
-      <link>/ap-research/tutorials/example/example1/</link>
+      <link>/tutorials/example/example1/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       
-      <guid>/ap-research/tutorials/example/example1/</guid>
+      <guid>/tutorials/example/example1/</guid>
       <description>
 
 &lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
@@ -144,10 +144,10 @@ Ann Arbor, MI: The University of Michigan Press.&lt;/p&gt;
     
     <item>
       <title>Packages</title>
-      <link>/ap-research/tutorials/r/packages/</link>
+      <link>/tutorials/r/packages/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/tutorials/r/packages/</guid>
+      <guid>/tutorials/r/packages/</guid>
       <description>
 
 &lt;p&gt;Here are some more tips for getting started with Academic:&lt;/p&gt;
@@ -180,10 +180,10 @@ Ann Arbor, MI: The University of Michigan Press.&lt;/p&gt;
     
     <item>
       <title>Unit 1 (Sept. 16-27)</title>
-      <link>/ap-research/course/unit1b/</link>
+      <link>/course/unit1b/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/course/unit1b/</guid>
+      <guid>/course/unit1b/</guid>
       <description>
 
 &lt;p&gt;Here are some more tips for getting started with Academic:&lt;/p&gt;
@@ -200,10 +200,10 @@ Ann Arbor, MI: The University of Michigan Press.&lt;/p&gt;
     
     <item>
       <title></title>
-      <link>/ap-research/course/unit1a/</link>
+      <link>/course/unit1a/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/course/unit1a/</guid>
+      <guid>/course/unit1a/</guid>
       <description>
 
 &lt;h1 id=&#34;week-1&#34;&gt;Week 1&lt;/h1&gt;
@@ -238,10 +238,10 @@ Ann Arbor, MI: The University of Michigan Press.&lt;/p&gt;
     
     <item>
       <title>Example Page 2</title>
-      <link>/ap-research/tutorials/example/example2/</link>
+      <link>/tutorials/example/example2/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       
-      <guid>/ap-research/tutorials/example/example2/</guid>
+      <guid>/tutorials/example/example2/</guid>
       <description>
 
 &lt;h1 id=&#34;intro&#34;&gt;Research Question&lt;/h1&gt;
@@ -1271,10 +1271,10 @@ $$ S_p^2 = \frac{(n_1-1)S_1^2 + (n_2-1)S_2^2}{(n_1-1)+(n_2-1)} $$&lt;/p&gt;
     
     <item>
       <title>Summer Prep (July 1-19)</title>
-      <link>/ap-research/course/unit0a/</link>
+      <link>/course/unit0a/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/course/unit0a/</guid>
+      <guid>/course/unit0a/</guid>
       <description>
 
 &lt;h2 id=&#34;objectives&#34;&gt;Objectives&lt;/h2&gt;
@@ -1312,10 +1312,10 @@ $$ S_p^2 = \frac{(n_1-1)S_1^2 + (n_2-1)S_2^2}{(n_1-1)+(n_2-1)} $$&lt;/p&gt;
     
     <item>
       <title>Summer Prep (July 22-31)</title>
-      <link>/ap-research/course/unit0b/</link>
+      <link>/course/unit0b/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/course/unit0b/</guid>
+      <guid>/course/unit0b/</guid>
       <description>
 
 &lt;h2 id=&#34;objectives&#34;&gt;Objectives&lt;/h2&gt;
@@ -1353,10 +1353,10 @@ $$ S_p^2 = \frac{(n_1-1)S_1^2 + (n_2-1)S_2^2}{(n_1-1)+(n_2-1)} $$&lt;/p&gt;
     
     <item>
       <title>Example Talk</title>
-      <link>/ap-research/talk/example/</link>
+      <link>/talk/example/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
       
-      <guid>/ap-research/talk/example/</guid>
+      <guid>/talk/example/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -1376,68 +1376,223 @@ $$ S_p^2 = \frac{(n_1-1)S_1^2 + (n_2-1)S_2^2}{(n_1-1)+(n_2-1)} $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>Slide Templates</title>
-      <link>/ap-research/project/internal-project/</link>
-      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      <title>AP Research Docs</title>
+      <link>/project/class-docs/</link>
+      <pubDate>Sun, 21 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/project/internal-project/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <guid>/project/class-docs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oral Defense Questions</title>
+      <link>/project/oral-defense/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/oral-defense/</guid>
+      <description>&lt;p&gt;After your presentation, three panelists will ask you questions from the list of oral defense questions found in pages 52-53 of the &lt;a href=&#34;https://apcentral.collegeboard.org/pdf/ap-research-course-and-exam-description.pdf?course=ap-research&#34; target=&#34;_blank&#34;&gt;AP Research Course and Exam Description&lt;/a&gt;. The panel will ask you three questions: one question from each of the three sections. Around mid-March, you should choose one of the document links above to fill in responses to the questions in preparation for your oral defense in April.&lt;/p&gt;
 </description>
     </item>
     
     <item>
+      <title>AP Capstone Implementation Guide</title>
+      <link>/project/implementation/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/implementation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AP Classroom</title>
+      <link>/project/ap-classroom/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/ap-classroom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AP Digital Portfolio</title>
+      <link>/project/digital-portfolio/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/digital-portfolio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AP Research Course and Exam Description</title>
+      <link>/project/ced/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/ced/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Academic Paper Rubric</title>
+      <link>/project/rubric-paper/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/rubric-paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>College Board AP Research Site</title>
+      <link>/project/apcentral/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/apcentral/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Inquiry Proposal Form</title>
-      <link>/ap-research/publication/inquiry/</link>
+      <link>/project/inquiry/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/inquiry/</guid>
+      <description>&lt;div class=&#34;cognito&#34;&gt;
+&lt;script src=&#34;https://services.cognitoforms.com/s/Tae-yEbE2EKkVDnzbTkOsQ&#34;&gt;&lt;/script&gt;
+&lt;script&gt;Cognito.load(&#34;forms&#34;, { id: &#34;1&#34; });&lt;/script&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Presentation &amp; Oral Defense Rubric</title>
+      <link>/project/rubric-pod/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/rubric-pod/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research Proposal</title>
+      <link>/project/proposal/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/proposal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slide Templates</title>
+      <link>/project/template-slides/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/template-slides/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inquiry Proposal Form</title>
+      <link>/publication/inquiry/</link>
       <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/publication/inquiry/</guid>
+      <guid>/publication/inquiry/</guid>
       <description>&lt;p&gt;You can find the original version of the Inquiry Proposal Form on page 55 of the &lt;a href=&#34;https://apcentral.collegeboard.org/pdf/ap-research-course-and-exam-description.pdf&#34; target=&#34;_blank&#34;&gt;AP Research Course Description&lt;/a&gt;. You may use the Word or LaTeX versions (accessed via the buttons above) as templates.&lt;/p&gt;
 
 &lt;p&gt;Fill out this form and e-mail it to your teacher for approval. You cannot proceed with your research until your teacher approves your form.&lt;/p&gt;
 
-&lt;p&gt;You should also look over the &lt;a href=&#34;/ap-research/publication/proposal&#34;&gt;Research Proposal Guidelines&lt;/a&gt;, which will be a more developed version of your inquiry proposal. The research proposal will document your initial stages of research following the approval of your research topic and inquiry form.&lt;/p&gt;
+&lt;p&gt;You should also look over the &lt;a href=&#34;/publication/proposal&#34;&gt;Research Proposal Guidelines&lt;/a&gt;, which will be a more developed version of your inquiry proposal. The research proposal will document your initial stages of research following the approval of your research topic and inquiry form.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Summer Preparation</title>
-      <link>/ap-research/2019/06/11/summer-preparation/</link>
+      <link>/2019/06/11/summer-preparation/</link>
       <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/2019/06/11/summer-preparation/</guid>
-      <description>&lt;p&gt;Tasks:&lt;/p&gt;
+      <guid>/2019/06/11/summer-preparation/</guid>
+      <description>
 
-&lt;ol&gt;
-&lt;li&gt;Look over some &lt;a href=&#34;/ap-research/ap-research/publication/#7&#34;&gt;AP Research sample papers&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Consider research ideas and questions that you would like to explore in your topic of interest. Use the &lt;a href=&#34;/ap-research/ap-research/publication/inquiry&#34;&gt;inquiry proposal form&lt;/a&gt; to guide your initial research process. This form can also be found on page 55 of the &lt;a href=&#34;https://apcentral.collegeboard.org/pdf/ap-research-course-and-exam-description.pdf&#34; target=&#34;_blank&#34;&gt;AP Research Course Description&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;After completing the inquiry proposal form, please e-mail it to your teacher for approval.&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;Please complete the following tasks over the summer to prepare for your AP Research academic paper and alleviate your workload during the school year:&lt;/p&gt;
+
+&lt;p&gt;1. Look over some &lt;a href=&#34;/publication/#7&#34;&gt;AP Research sample papers&lt;/a&gt;, especially papers on topics that interest you. This will give you a sense of the final product. However, do not feel overwhelmed by the difficulty of some of the papers. You will not need to do cutting-edge research in order to score a 5 in AP Research. Please note that the sample papers were graded on an old rubric. When the new school year starts, we will go over the &lt;a href=&#34;/project/rubric-paper/&#34;&gt;new paper rubric&lt;/a&gt; to discuss the basic requirements to receive a 3, 4, or 5 on the AP Research academic paper.&lt;/p&gt;
+
+&lt;p&gt;2. Consider research topic(s) that you would like to explore. In AP Seminar, the type of research you focused on was primarily search and report. In AP Research, your research will need to include a replicable method to address a focused research question that will contribute to a new understanding in your chosen field.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You may want to refer to pages 18&amp;ndash;26 of the 2017 AP Research Student Workbook as a guide for turning a problem statement into a research question. To access the Workbook, please go the &lt;a href=&#34;/portfolio/&#34;&gt;Portfolio&lt;/a&gt; tab, click on &amp;ldquo;Resources&amp;rdquo; on the blue bar and select &amp;ldquo;AP Research Docs.&amp;rdquo; I will send you a password to access the URL from which you will go to &lt;code&gt;AP Research Docs&lt;/code&gt; &amp;rarr; &lt;code&gt;Textbooks&lt;/code&gt; &amp;rarr; &lt;code&gt;2017 AP Research Student Workbook.pdf&lt;/code&gt;.&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;3. E-mail me with the following items:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;research topic(s)&lt;/li&gt;
+&lt;li&gt;focused research question(s)&lt;/li&gt;
+&lt;li&gt;brief outline of how you will address your question
+
+&lt;ul&gt;
+&lt;li&gt;What methods do you plan to use?&lt;/li&gt;
+&lt;li&gt;What will you do this summer to learn the basics of your proposed methods?&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;4. In our e-mail correspondence, I will give you general feedback on refining your research question. After I approve your topic/question, you can continue your research and fill out the &lt;a href=&#34;/publication/inquiry&#34;&gt;inquiry proposal form&lt;/a&gt;. This form can also be found on page 55 of the &lt;a href=&#34;https://apcentral.collegeboard.org/pdf/ap-research-course-and-exam-description.pdf&#34; target=&#34;_blank&#34;&gt;AP Research Course Description&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;5. After completing the inquiry proposal form, please e-mail it to me for approval. While I set the deadline for October 30, please consider completing this form as soon as possible, because you cannot proceed with your research (including data collection) until I approve your inquiry proposal form.&lt;/p&gt;
+
+&lt;h2 id=&#34;additional-notes&#34;&gt;Additional Notes&lt;/h2&gt;
+
+&lt;p&gt;Your research question should have the following three elements:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;focused: topic of inquiry is narrow in scope&lt;/li&gt;
+&lt;li&gt;valuable: your research question should lead to a new understanding in the field&lt;/li&gt;
+&lt;li&gt;feasible: you should be able to apply your proposed methods to test your research question and finish your paper by April 25, 2020.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To answer your research question, you have two approaches:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;primary research&lt;/strong&gt;: collecting your own data (e.g., surveys, interviews)
+
+&lt;ul&gt;
+&lt;li&gt;If you decide to collect your own data on human subjects, you will most likely have to go through an Institutional Review Board (IRB) process to ensure compliance with research ethics. If you decide to go this route, I will work with you to navigate the process.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;secondary research&lt;/strong&gt;: using existing data sources
+
+&lt;ul&gt;
+&lt;li&gt;Using existing data sources is a valid option, but make sure that you are using existing data to do original analysis that will fill a gap in the existing literature.
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This entire process may sound daunting, but developing a new understanding simply means you have to demonstrate the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Do an extensive literature review to explain and synthesize the research that has already been done related to your topic. This represents the current understanding in the field.&lt;/li&gt;
+&lt;li&gt;Next, you want to identify what has not been done. This is called a &lt;strong&gt;gap&lt;/strong&gt; in the literature.&lt;/li&gt;
+&lt;li&gt;Your research will fill this gap with a new understanding, which does not have to be groundbreaking. Tiny increments that add to the existing research would be more than sufficient. Some examples:
+
+&lt;ul&gt;
+&lt;li&gt;Current research in Topic X has focused primarily on adult populations in first- and second-tier cities in China. I will examine data collected at a suburban high school in a third-tier city in China to explore how current research in the field could be generalized to different age groups and regions in China.&lt;/li&gt;
+&lt;li&gt;Current models about Topic Y have focused on Variables A, B, and C with very little discussion about Variables D and E. I will extend current models to test if Variables D and E will uncover a new understanding about my research question pertaining to Topic Y.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Research Proposal Guidelines</title>
-      <link>/ap-research/publication/proposal/</link>
+      <link>/publication/proposal/</link>
       <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/publication/proposal/</guid>
+      <guid>/publication/proposal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Slides</title>
-      <link>/ap-research/slides/example/</link>
+      <link>/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/slides/example/</guid>
+      <guid>/slides/example/</guid>
       <description>
 
 &lt;h1 id=&#34;welcome-to-slides&#34;&gt;Welcome to Slides&lt;/h1&gt;
@@ -1615,21 +1770,30 @@ $$&lt;/p&gt;
     </item>
     
     <item>
+      <title>Research Portfolio</title>
+      <link>/portfolio/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Privacy Policy</title>
-      <link>/ap-research/privacy/</link>
+      <link>/privacy/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
       
-      <guid>/ap-research/privacy/</guid>
+      <guid>/privacy/</guid>
       <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Cultivation, Resistance, &amp; Beauty: A Case Study on the Defiant Gardens of the Manzanar Internment Camp during World War II</title>
-      <link>/ap-research/publication/2018-sample-paper-a/</link>
+      <link>/publication/2018-sample-paper-a/</link>
       <pubDate>Fri, 04 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/publication/2018-sample-paper-a/</guid>
+      <guid>/publication/2018-sample-paper-a/</guid>
       <description>&lt;p&gt;2018 AP Research Sample Paper A&lt;/p&gt;
 
 &lt;p&gt;Please visit &lt;a href=&#34;https://apcentral.collegeboard.org/courses/ap-research/exam/past-exam-questions?course=ap-research&#34; target=&#34;_blank&#34;&gt;College Board website&lt;/a&gt; for complete list of sample papers.&lt;/p&gt;
@@ -1638,10 +1802,10 @@ $$&lt;/p&gt;
     
     <item>
       <title>Drosophila Insulin Like Peptides: Causal Neuropeptide for Fly Aggression?</title>
-      <link>/ap-research/publication/2018-sample-paper-b/</link>
+      <link>/publication/2018-sample-paper-b/</link>
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/publication/2018-sample-paper-b/</guid>
+      <guid>/publication/2018-sample-paper-b/</guid>
       <description>&lt;p&gt;2018 AP Research Sample Paper B&lt;/p&gt;
 
 &lt;p&gt;Please visit &lt;a href=&#34;https://apcentral.collegeboard.org/courses/ap-research/exam/past-exam-questions?course=ap-research&#34; target=&#34;_blank&#34;&gt;College Board website&lt;/a&gt; for complete list of sample papers.&lt;/p&gt;
@@ -1650,10 +1814,10 @@ $$&lt;/p&gt;
     
     <item>
       <title>A *Raw* Film Analysis</title>
-      <link>/ap-research/publication/2018-sample-paper-c/</link>
+      <link>/publication/2018-sample-paper-c/</link>
       <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/publication/2018-sample-paper-c/</guid>
+      <guid>/publication/2018-sample-paper-c/</guid>
       <description>&lt;p&gt;2018 AP Research Sample Paper C&lt;/p&gt;
 
 &lt;p&gt;Please visit &lt;a href=&#34;https://apcentral.collegeboard.org/courses/ap-research/exam/past-exam-questions?course=ap-research&#34; target=&#34;_blank&#34;&gt;College Board website&lt;/a&gt; for complete list of sample papers.&lt;/p&gt;
@@ -1662,10 +1826,10 @@ $$&lt;/p&gt;
     
     <item>
       <title>The Thin-Layer Chromatography Analysis of Phospholipids in *Vibrio fischeri* with a Focus on Cardiolipin</title>
-      <link>/ap-research/publication/2018-sample-paper-d/</link>
+      <link>/publication/2018-sample-paper-d/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/publication/2018-sample-paper-d/</guid>
+      <guid>/publication/2018-sample-paper-d/</guid>
       <description>&lt;p&gt;2018 AP Research Sample Paper D&lt;/p&gt;
 
 &lt;p&gt;Please visit &lt;a href=&#34;https://apcentral.collegeboard.org/courses/ap-research/exam/past-exam-questions?course=ap-research&#34; target=&#34;_blank&#34;&gt;College Board website&lt;/a&gt; for complete list of sample papers.&lt;/p&gt;
@@ -1674,10 +1838,10 @@ $$&lt;/p&gt;
     
     <item>
       <title>Growth for Good: How Past Experiences Motivate Executives to Join Double Bottom Line Organizations in the Indian Construction Industry</title>
-      <link>/ap-research/publication/2017-sample-paper-a/</link>
+      <link>/publication/2017-sample-paper-a/</link>
       <pubDate>Thu, 04 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/publication/2017-sample-paper-a/</guid>
+      <guid>/publication/2017-sample-paper-a/</guid>
       <description>&lt;p&gt;2017 AP Research Sample Paper A&lt;/p&gt;
 
 &lt;p&gt;Please visit &lt;a href=&#34;https://apcentral.collegeboard.org/courses/ap-research/exam/past-exam-questions?course=ap-research&#34; target=&#34;_blank&#34;&gt;College Board website&lt;/a&gt; for complete list of sample papers.&lt;/p&gt;
@@ -1686,10 +1850,10 @@ $$&lt;/p&gt;
     
     <item>
       <title>Music Chemistry: The Formula of K-Pop</title>
-      <link>/ap-research/publication/2017-sample-paper-b/</link>
+      <link>/publication/2017-sample-paper-b/</link>
       <pubDate>Wed, 03 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/publication/2017-sample-paper-b/</guid>
+      <guid>/publication/2017-sample-paper-b/</guid>
       <description>&lt;p&gt;2017 AP Research Sample Paper B&lt;/p&gt;
 
 &lt;p&gt;Please visit &lt;a href=&#34;https://apcentral.collegeboard.org/courses/ap-research/exam/past-exam-questions?course=ap-research&#34; target=&#34;_blank&#34;&gt;College Board website&lt;/a&gt; for complete list of sample papers.&lt;/p&gt;
@@ -1698,10 +1862,10 @@ $$&lt;/p&gt;
     
     <item>
       <title>The Modification of Buildings Based on the Mounds of Macrotermes for the Purposes of Thermoregulation and the Elimination of the Need for Modern Air Conditioning</title>
-      <link>/ap-research/publication/2017-sample-paper-c/</link>
+      <link>/publication/2017-sample-paper-c/</link>
       <pubDate>Tue, 02 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/publication/2017-sample-paper-c/</guid>
+      <guid>/publication/2017-sample-paper-c/</guid>
       <description>&lt;p&gt;2017 AP Research Sample Paper C&lt;/p&gt;
 
 &lt;p&gt;Please visit &lt;a href=&#34;https://apcentral.collegeboard.org/courses/ap-research/exam/past-exam-questions?course=ap-research&#34; target=&#34;_blank&#34;&gt;College Board website&lt;/a&gt; for complete list of sample papers.&lt;/p&gt;
@@ -1710,10 +1874,10 @@ $$&lt;/p&gt;
     
     <item>
       <title>Making Health Education LGBTQ&#43; Inclusive in Vermont High Schools</title>
-      <link>/ap-research/publication/2017-sample-paper-d/</link>
+      <link>/publication/2017-sample-paper-d/</link>
       <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/publication/2017-sample-paper-d/</guid>
+      <guid>/publication/2017-sample-paper-d/</guid>
       <description>&lt;p&gt;2017 AP Research Sample Paper D&lt;/p&gt;
 
 &lt;p&gt;Please visit &lt;a href=&#34;https://apcentral.collegeboard.org/courses/ap-research/exam/past-exam-questions?course=ap-research&#34; target=&#34;_blank&#34;&gt;College Board website&lt;/a&gt; for complete list of sample papers.&lt;/p&gt;
@@ -1722,10 +1886,10 @@ $$&lt;/p&gt;
     
     <item>
       <title>The United States Supreme Court: A Case Study on the Relation of Prior Public Opinion to Compliance</title>
-      <link>/ap-research/publication/2016-sample-paper-c/</link>
+      <link>/publication/2016-sample-paper-c/</link>
       <pubDate>Wed, 04 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/publication/2016-sample-paper-c/</guid>
+      <guid>/publication/2016-sample-paper-c/</guid>
       <description>&lt;p&gt;2016 AP Research Sample Paper C&lt;/p&gt;
 
 &lt;p&gt;Please visit &lt;a href=&#34;https://apcentral.collegeboard.org/courses/ap-research/exam/past-exam-questions?course=ap-research&#34; target=&#34;_blank&#34;&gt;College Board website&lt;/a&gt; for complete list of sample papers.&lt;/p&gt;
@@ -1734,10 +1898,10 @@ $$&lt;/p&gt;
     
     <item>
       <title>The Modern Mythical Place: San Fransokyo, Hiro, and Hybridity in Disney&#39;s Big Hero 6</title>
-      <link>/ap-research/publication/2016-sample-paper-i/</link>
+      <link>/publication/2016-sample-paper-i/</link>
       <pubDate>Mon, 02 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/publication/2016-sample-paper-i/</guid>
+      <guid>/publication/2016-sample-paper-i/</guid>
       <description>&lt;p&gt;2016 AP Research Sample Paper I&lt;/p&gt;
 
 &lt;p&gt;Please visit &lt;a href=&#34;https://apcentral.collegeboard.org/courses/ap-research/exam/past-exam-questions?course=ap-research&#34; target=&#34;_blank&#34;&gt;College Board website&lt;/a&gt; for complete list of sample papers.&lt;/p&gt;
@@ -1746,10 +1910,10 @@ $$&lt;/p&gt;
     
     <item>
       <title>Special Considerations Concerning Genetic Testing in Minority Populations and Ethnicities</title>
-      <link>/ap-research/publication/2016-sample-paper-g/</link>
+      <link>/publication/2016-sample-paper-g/</link>
       <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/publication/2016-sample-paper-g/</guid>
+      <guid>/publication/2016-sample-paper-g/</guid>
       <description>&lt;p&gt;2016 AP Research Sample Paper G&lt;/p&gt;
 
 &lt;p&gt;Please visit &lt;a href=&#34;https://apcentral.collegeboard.org/courses/ap-research/exam/past-exam-questions?course=ap-research&#34; target=&#34;_blank&#34;&gt;College Board website&lt;/a&gt; for complete list of sample papers.&lt;/p&gt;
@@ -1758,10 +1922,10 @@ $$&lt;/p&gt;
     
     <item>
       <title>Testing the Effectiveness of Pulmonary Macrophage Transplantation to treat Pulmonary Alveolar Proteinosis Caused by Niemann-Pick Type C</title>
-      <link>/ap-research/publication/2016-sample-paper-k/</link>
+      <link>/publication/2016-sample-paper-k/</link>
       <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/publication/2016-sample-paper-k/</guid>
+      <guid>/publication/2016-sample-paper-k/</guid>
       <description>&lt;p&gt;2016 AP Research Sample Paper K&lt;/p&gt;
 
 &lt;p&gt;Please visit &lt;a href=&#34;https://apcentral.collegeboard.org/courses/ap-research/exam/past-exam-questions?course=ap-research&#34; target=&#34;_blank&#34;&gt;College Board website&lt;/a&gt; for complete list of sample papers.&lt;/p&gt;
@@ -1770,10 +1934,10 @@ $$&lt;/p&gt;
     
     <item>
       <title>Reproducible Research</title>
-      <link>/ap-research/project/external-project/</link>
+      <link>/project/external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/project/external-project/</guid>
+      <guid>/project/external-project/</guid>
       <description></description>
     </item>
     

@@ -2,30 +2,129 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on AP Research</title>
-    <link>/ap-research/project/</link>
+    <link>/project/</link>
     <description>Recent content in Projects on AP Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jul 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/ap-research/project/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Slide Templates</title>
-      <link>/ap-research/project/internal-project/</link>
+      <title>AP Research Docs</title>
+      <link>/project/class-docs/</link>
+      <pubDate>Sun, 21 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/class-docs/</guid>
+      <description>Password protected. Please do not disseminate documents shared in this link.</description>
+    </item>
+    
+    <item>
+      <title>Oral Defense Questions</title>
+      <link>/project/oral-defense/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/oral-defense/</guid>
+      <description>Taken from pages 52&amp;ndash;53 of the &lt;a href=&#34;https://apcentral.collegeboard.org/pdf/ap-research-course-and-exam-description.pdf?course=ap-research&#34; target=&#34;_blank&#34;&gt;AP Research Course and Exam Description&lt;/a&gt;.</description>
+    </item>
+    
+    <item>
+      <title>AP Capstone Implementation Guide</title>
+      <link>/project/implementation/</link>
       <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/project/internal-project/</guid>
+      <guid>/project/implementation/</guid>
+      <description>Please read the AP Capstone Plagiarism and Falsification or Fabrication of Information policy on page 14.</description>
+    </item>
+    
+    <item>
+      <title>AP Classroom</title>
+      <link>/project/ap-classroom/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/ap-classroom/</guid>
+      <description>Log in with your College Board student account. Click &lt;strong&gt;Join a Course or Exam&lt;/strong&gt;. Submit join code, which you will receive from your teacher.</description>
+    </item>
+    
+    <item>
+      <title>AP Digital Portfolio</title>
+      <link>/project/digital-portfolio/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/digital-portfolio/</guid>
+      <description>Access EBSCO and Turnitin through AP Digital Portfolio. Deadline to submit academic paper to the AP Digital Portfolio is April 30, 2020, at 11:59 p.m. ET. To avoid last-minute tech issues, our class will be submitting papers a few days earlier.</description>
+    </item>
+    
+    <item>
+      <title>AP Research Course and Exam Description</title>
+      <link>/project/ced/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/ced/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Academic Paper Rubric</title>
+      <link>/project/rubric-paper/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/rubric-paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>College Board AP Research Site</title>
+      <link>/project/apcentral/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/apcentral/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inquiry Proposal Form</title>
+      <link>/project/inquiry/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/inquiry/</guid>
+      <description>Due on October 30. Must receive teacher approval of this completed form before conducting research.</description>
+    </item>
+    
+    <item>
+      <title>Presentation &amp; Oral Defense Rubric</title>
+      <link>/project/rubric-pod/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/rubric-pod/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research Proposal</title>
+      <link>/project/proposal/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/proposal/</guid>
+      <description>Due on November 30. After your inquiry proposal form is approved, complete a research proposal for approval before proceeding to your academic paper.</description>
+    </item>
+    
+    <item>
+      <title>Slide Templates</title>
+      <link>/project/template-slides/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/template-slides/</guid>
       <description>Various formats of presentation slides</description>
     </item>
     
     <item>
       <title>Reproducible Research</title>
-      <link>/ap-research/project/external-project/</link>
+      <link>/project/external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/ap-research/project/external-project/</guid>
+      <guid>/project/external-project/</guid>
       <description>Minimal example of code, data documentation, and integration with paper.</description>
     </item>
     
