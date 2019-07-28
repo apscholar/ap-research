@@ -1,12 +1,12 @@
 ---
-title: "AP^&reg;^ Research Calendar"
+title: "AP^&reg;^ Research Calendar (Mr. Li's Class)"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
     vertical_layout: fill
     navbar:
-      - {title: "AP<sup>&reg;</sup> Research Main Website", href: "https://apresearch.netlify.com" }
-      - {title: "Syllabus", href: "https://apresearch.netlify.com/syllabus/" }
+      - {title: "AP<sup>&reg;</sup> Research Main Website", href: "https://ap-research.github.io" }
+      - {title: "Syllabus", href: "https://ap-research.github.io/syllabus" }
 ---
 
 ```{r setup, include=FALSE}
@@ -47,7 +47,7 @@ calendarPlot(sch, pollutant = "val", year =c(2019,2020), annotate = "date", brea
              cols = c("lightblue","gold","lightcoral"))
 ```
 
-> \*AP is a registered trademark of the College Board, which was not involved in the production of this webpage. The dates in this calendar apply only to Ms. Sun and Mr. Li's research classes.
+> \*AP is a registered trademark of the College Board, which was not involved in the production of this webpage.
 
 Column {data-width=450, .tabset}
 -----------------------------------------------------------------------
