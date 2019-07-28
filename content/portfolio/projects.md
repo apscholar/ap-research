@@ -30,8 +30,8 @@ subtitle = ""
     tag = "College Board"
   
   [[content.filter_button]]
-    name = "Resources"
-    tag = "Resources"
+    name = "Cloud"
+    tag = "Cloud"
 
   [[content.filter_button]]
     name = "Proposals"

@@ -1,0 +1,44 @@
+---
+title: How to Access Course Website Locally
+author: ""
+date: '2019-07-28'
+slug: local-host
+categories: ["Tutorials"]
+tags: []
+subtitle: ''
+summary: 'In case the course website is inaccessible, you can host the site locally on your computer with these steps.'
+authors: []
+lastmod: '2019-07-28'
+featured: true
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+
+<p>When we have some extra time in class, we will go over this post together so that everyone knows how to host the course website locally on their computer. The following procedures serve as an extra safeguard in case we encounter unforeseen difficulties accessing the course website directly.</p>
+<ol style="list-style-type: decimal">
+<li><p>Download the <a href="/project/local-host/">website HTML output folder</a>.</p></li>
+<li><p>Save the output folder to your computer to a certain path (e.g., <code>C:\path\to\where\you\saved\downloaded\folder</code>).</p></li>
+<li><p>Open RStudio and enter the following lines in the console.</p></li>
+</ol>
+<pre class="r"><code>library(servr)
+httd(dir=&quot;C:\path\to\where\you\saved\downloaded\folder&quot;)</code></pre>
+<ul>
+<li><p>If you do not already have R and RStudio installed on your computer, please see the <a href="/handbook/data-programming.html#r">handbook section on R</a>.</p></li>
+<li><p>You may need to first input <code>install.packages("servr")</code> in the R console to install the <code>servr</code> package before running the following code.</p></li>
+</ul>
+<ol start="4" style="list-style-type: decimal">
+<li>The course website should appear in the Viewer tab in RStudio as shown below:</li>
+</ol>
+<p><img src="/img/post/local-host-r-viewer.png" /></p>
+<ol start="5" style="list-style-type: decimal">
+<li>Below the Viewer tab in RStudio, there are three buttons (see below). Click on the third button to open the website in a separate brower. Then click on the first button to remove the website display in the Viewer tab.</li>
+</ol>
+<p><img src="/img/post/local-host-r-viewer-buttons.png" /></p>
+<p>Note: The procedures above will allow you to view the version of the website as of the output date found in Weiyun, where you downloaded the HTML folder. When there are updates to the website, you will have to download an updated version of the folder. A possible alternative is clicking the blue button 保存微雲 instead of 下載 on the Weiyun site, as shown below:</p>
+<p><img src="/img/post/local-host-weiyun.png" /></p>
+<p>If selecting 保存微雲 allows you to sync the files to your Weiyun account, you might consider downloading <a href="https://www.weiyun.com/download.html">同步助手</a> to sync the folder directly to your desktop to avoid downloading the folder each time the website gets updated. If you decide to explore this option, let me know if it works.</p>

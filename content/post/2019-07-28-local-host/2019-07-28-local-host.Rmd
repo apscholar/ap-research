@@ -1,0 +1,49 @@
+---
+title: How to Access Course Website Locally
+author: ""
+date: '2019-07-28'
+slug: local-host
+categories: ["Tutorials"]
+tags: []
+subtitle: ''
+summary: 'In case the course website is inaccessible, you can host the site locally on your computer with these steps.'
+authors: []
+lastmod: '2019-07-28'
+featured: true
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+When we have some extra time in class, we will go over this post together so that everyone knows how to host the course website locally on their computer. The following procedures serve as an extra safeguard in case we encounter unforeseen difficulties accessing the course website directly.
+
+1. Download the [website HTML output folder](/project/local-host/).
+
+2. Save the output folder to your computer to a certain path (e.g., `C:\path\to\where\you\saved\downloaded\folder`).
+
+3. Open RStudio and enter the following lines in the console. 
+
+```{r, eval=FALSE}
+library(servr)
+httd(dir="C:\path\to\where\you\saved\downloaded\folder")
+```
+
+  * If you do not already have R and RStudio installed on your computer, please see the [handbook section on R](/handbook/data-programming.html#r).
+  
+  * You may need to first input `install.packages("servr")` in the R console to install the `servr` package before running the following code.
+
+4. The course website should appear in the Viewer tab in RStudio as shown below:
+
+![](/img/post/local-host-r-viewer.png)
+
+5. Below the Viewer tab in RStudio, there are three buttons (see below). Click on the third button to open the website in a separate brower. Then click on the first button to remove the website display in the Viewer tab.
+
+![](/img/post/local-host-r-viewer-buttons.png)
+
+Note: The procedures above will allow you to view the version of the website as of the output date found in Weiyun, where you downloaded the HTML folder. When there are updates to the website, you will have to download an updated version of the folder. A possible alternative is clicking the blue button 保存微雲 instead of 下載 on the Weiyun site, as shown below:
+
+![](/img/post/local-host-weiyun.png)
+
+If selecting 保存微雲 allows you to sync the files to your Weiyun account, you might consider downloading [同步助手](https://www.weiyun.com/download.html) to sync the folder directly to your desktop to avoid downloading the folder each time the website gets updated. If you decide to explore this option, let me know if it works.

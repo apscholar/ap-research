@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 summary: Password protected. Please do not disseminate documents shared in this link.
 tags: 
-- Resources
+- Cloud
 title: AP Research Docs
 ---
 

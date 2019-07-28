@@ -23,7 +23,7 @@ Please complete the following tasks over the summer to prepare for your AP Resea
 
 2\. Consider research topic(s) that you would like to explore. In AP Seminar, the type of research you focused on was primarily search and report. In AP Research, your research will need to include a replicable method to address a focused research question that will contribute to a new understanding in your chosen field. 
 
-   * You may want to refer to pages 18--26 of the 2017 AP Research Student Workbook as a guide for turning a problem statement into a research question. To access the Workbook, please go the [Portfolio](/portfolio/) tab, click on "Resources" on the blue bar and select "AP Research Docs." I will send you a password to access the URL from which you will go to `AP Research Docs` &rarr; `Textbooks` &rarr; `2017 AP Research Student Workbook.pdf`.  
+   * You may want to refer to pages 18--26 of the 2017 AP Research Student Workbook as a guide for turning a problem statement into a research question. To access the Workbook, please go the [Portfolio](/portfolio/) tab, click on "Cloud" on the blue bar and select "AP Research Docs." I will send you a password to access the URL from which you will go to `AP_Research_Docs` &rarr; `Textbooks` &rarr; `2017 AP Research Student Workbook.pdf`.  
 
 3\. E-mail me with the following items:
 
