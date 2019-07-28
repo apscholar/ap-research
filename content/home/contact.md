@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 135  # Order that this section will appear.
 
-title = "Contact"
+title = "<br>Contact"
 subtitle = ""
 
 # Automatically link email and phone?
@@ -17,7 +17,6 @@ autolink = true
 #   2: formspree.io
 email_form = 0
 +++
-
 <div class="cognito">
 <script src="https://services.cognitoforms.com/s/Tae-yEbE2EKkVDnzbTkOsQ"></script>
 <script>Cognito.load("forms", { id: "2" });</script>
