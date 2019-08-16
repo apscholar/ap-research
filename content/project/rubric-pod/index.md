@@ -1,6 +1,6 @@
 ---
 date: "2019-06-13T00:00:00Z"
-external_link: https://apcentral.collegeboard.org/pdf/ap18-sg-research-academic-paper.pdf
+external_link: https://secure-media.collegeboard.org/ap/pdf/ap17-sg-research-presentation.pdf
 image:
   caption: 
   focal_point: Smart
