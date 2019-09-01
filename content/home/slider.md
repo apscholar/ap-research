@@ -17,7 +17,7 @@ height = ""
 # Duplicate an `[[item]]` block to add more slides.
 [[item]]
   title = "Welcome to AP<sup>&reg;</sup> Research"
-  content = "2019--2020<br><br>"
+  content = "2019--2020<br><br> Teaching Team: Miss Sun & Mr. Li"
   align = "center"  # Choose `center`, `left`, or `right`.
 
   # Overlay a color or image (optional).
@@ -30,12 +30,25 @@ height = ""
   #   Activate the button by specifying a URL and button label below.
   #   Deactivate by commenting out parameters, prefixing lines with `#`.
 
-  cta_label = "Mr. Li's Main Site"
-  cta_url = "https://apscholar.github.io"
+  cta_label = "i"
+  cta_url = ""
   cta_icon_pack = "fas"
   cta_icon = "graduation-cap"
 
+[[item]]
+  title = "Mr. Li"
+  content = "Main Teaching Site"
+  align = "right"
 
+  overlay_color = "#333"  # An HTML color value.
+  overlay_img = "headers/bubbles-wide.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.3  # Darken the image. Value in range 0-1.
+  
+  cta_label = "Link"
+  cta_url = "https://apscholar.github.io"
+  cta_icon_pack = "fas"
+  cta_icon = "graduation-cap"
+  
 [[item]]
   title = "College Board"
   content = "AP<sup>&reg;</sup> Research Website"
