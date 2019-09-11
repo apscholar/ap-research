@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 125  # Order that this section will appear.
 
 title = "Office Hours"
-subtitle = "<b>Evening Tutoring:</b> <br> Thursdays, 20:10 -- 21:00 (M307) <br> <b> Additional Office Hours: </b> <br> By Appointment (M501A)"
+subtitle = "<b>Evening Tutoring:</b> <br> Miss Sun: Mondays, 20:10 -- 21:00 (M307) <br> Mr. Li: Thursdays, 20:10 -- 21:00 (M307) <br> <b> Additional Office Hours: </b> <br> Mr. Li: By Appointment (M501A)"
 
 # Automatically link email and phone?
 autolink = true
