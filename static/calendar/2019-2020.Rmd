@@ -28,18 +28,22 @@ sch <- tibble(date= as.Date(c("2019-09-30")),
               item = c("Research Topic/Question"))
 
 sch <- sch %>% 
-  add_row(date = "2019-10-31", val = 3, item = "Inquiry Proposal Form") %>%
-  add_row(date = "2019-11-15", val = 2, item = "Poster Presentation") %>%
-  add_row(date = "2019-11-29", val = 3, item = "Research Proposal") %>%
-  add_row(date = "2019-12-20", val = 1, item = "Annotated Bibliography") %>%
-  add_row(date = "2020-01-10", val = 2, item = "Research Blueprint Poster") %>%
-  add_row(date = "2020-02-28", val = 1, item = "Paper Draft 1") %>%
-  add_row(date = "2020-03-16", val = 1, item = "Paper Draft 2") %>%
-  add_row(date = "2020-04-01", val = 3, item = "Final presentations/oral defense begin") %>%
-  add_row(date = "2020-04-15", val = 3, item = "Final presentations/oral defense end") %>%
-  add_row(date = "2020-04-24", val = 3, item = "Final Academic Paper") %>%
-  add_row(date = "2020-04-30", val = 3, item = "Final submission of scores") %>%
-  add_row(date = "2020-05-31", val = 3, item = "Process and Reflection Portfolio (PREP)")
+  add_row(date = "2019-10-25", val = 3, item = "Annotated Bibliography") %>%
+  add_row(date = "2019-10-29", val = 2, item = "Practice Presentation Slides") %>%
+  add_row(date = "2019-10-31", val = 2, item = "Practice Presentations") %>%
+  add_row(date = "2019-11-01", val = 2, item = "Practice Presentations") %>%
+  add_row(date = "2019-11-08", val = 3, item = "Inquiry Proposal Form") %>%
+  add_row(date = "2019-11-30", val = 3, item = "Research Proposal")
+  # add_row(date = "2019-11-29", val = 3, item = "Research Proposal") %>%
+  # add_row(date = "2019-12-20", val = 1, item = "") %>%
+  # add_row(date = "2020-01-10", val = 2, item = "Research Blueprint Poster") %>%
+  # add_row(date = "2020-02-28", val = 1, item = "Paper Draft 1") %>%
+  # add_row(date = "2020-03-16", val = 1, item = "Paper Draft 2") %>%
+  # add_row(date = "2020-04-01", val = 3, item = "Final presentations/oral defense begin") %>%
+  # add_row(date = "2020-04-15", val = 3, item = "Final presentations/oral defense end") %>%
+  # add_row(date = "2020-04-24", val = 3, item = "Final Academic Paper") %>%
+  # add_row(date = "2020-04-30", val = 3, item = "Final submission of scores") %>%
+  # add_row(date = "2020-05-31", val = 3, item = "Process and Reflection Portfolio (PREP)")
   
 sch <- sch %>% add_column(month = as.factor(month(sch$date)), year = as.factor(year(sch$date)))
 
