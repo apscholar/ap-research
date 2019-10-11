@@ -1,5 +1,5 @@
 ---
-title: "AP^&reg;^ Research Calendar (Mr. Li's Class)"
+title: "AP^&reg;^ Research Calendar (Miss Sun & Mr. Li's Class)"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
