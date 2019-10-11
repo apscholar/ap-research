@@ -1,5 +1,5 @@
 ---
-date: "2019-11-08T00:00:00Z"
+date: "2019-10-29T00:00:00Z"
 external_link: ""
 image:
   caption: 
@@ -12,11 +12,11 @@ links:
 - name: Template
   url: "/publication/inquiry/"
 # slides: example
-summary: Due on November 8, 2019 (9 a.m.). Must receive teacher approval of this completed form before conducting research.
+summary: Please submit your proposal presentation slides on October 29, 2019 (9 a.m.) in preparation for your prospoal presentions on October 30 or November 1.
 tags:
-- Proposals
+- Presentation
 - Submissions
-title: Inquiry Proposal Form
+title: Proposal Presentation Slides
 url_code: ""
 url_pdf: ""
 url_slides: ""
@@ -25,5 +25,5 @@ url_video: ""
 
 <div class="cognito">
 <script src="https://services.cognitoforms.com/s/Tae-yEbE2EKkVDnzbTkOsQ"></script>
-<script>Cognito.load("forms", { id: "3" });</script>
+<script>Cognito.load("forms", { id: "4" });</script>
 </div>

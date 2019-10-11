@@ -1,5 +1,5 @@
 ---
-date: "2019-11-08T00:00:00Z"
+date: "2019-10-25T00:00:00Z"
 external_link: ""
 image:
   caption: 
@@ -12,11 +12,11 @@ links:
 - name: Template
   url: "/publication/inquiry/"
 # slides: example
-summary: Due on November 8, 2019 (9 a.m.). Must receive teacher approval of this completed form before conducting research.
+summary: Due on October 25, 2019 (9 a.m.).
 tags:
 - Proposals
 - Submissions
-title: Inquiry Proposal Form
+title: Annotated Bilbliography
 url_code: ""
 url_pdf: ""
 url_slides: ""
@@ -25,5 +25,5 @@ url_video: ""
 
 <div class="cognito">
 <script src="https://services.cognitoforms.com/s/Tae-yEbE2EKkVDnzbTkOsQ"></script>
-<script>Cognito.load("forms", { id: "3" });</script>
+<script>Cognito.load("forms", { id: "5" });</script>
 </div>
