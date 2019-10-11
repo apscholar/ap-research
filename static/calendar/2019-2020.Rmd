@@ -29,9 +29,9 @@ sch <- tibble(date= as.Date(c("2019-09-30")),
 
 sch <- sch %>% 
   add_row(date = "2019-10-25", val = 3, item = "Annotated Bibliography") %>%
-  add_row(date = "2019-10-29", val = 2, item = "Practice Presentation Slides") %>%
-  add_row(date = "2019-10-31", val = 2, item = "Practice Presentations") %>%
-  add_row(date = "2019-11-01", val = 2, item = "Practice Presentations") %>%
+  add_row(date = "2019-10-29", val = 2, item = "Proposal Presentation Slides") %>%
+  add_row(date = "2019-10-31", val = 2, item = "Proposal Presentations") %>%
+  add_row(date = "2019-11-01", val = 2, item = "Proposal Presentations") %>%
   add_row(date = "2019-11-08", val = 3, item = "Inquiry Proposal Form") %>%
   add_row(date = "2019-11-30", val = 3, item = "Research Proposal")
   # add_row(date = "2019-11-29", val = 3, item = "Research Proposal") %>%
