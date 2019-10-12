@@ -16,7 +16,7 @@ summary: Due on October 25, 2019 (9 a.m.).
 tags:
 - Proposals
 - Submissions
-title: Annotated Bilbliography
+title: Annotated Bibliography
 url_code: ""
 url_pdf: ""
 url_slides: ""
